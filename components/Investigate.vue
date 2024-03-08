@@ -31,7 +31,6 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
       <div class="grid grid-cols-3 gap-3 mt-4">
         <img
           class="w-full"
-          height="200"
           src="https://picsum.photos/200"
         >
         <div class=" text-xl font-medium col-span-2 leading-loose">
@@ -42,8 +41,7 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
 
     <div class="relative">
       <img
-        class="absolute left-[calc(50%-220px)] top-[20%]"
-        height="400"
+        class="absolute left-[calc(50%-220px)] top-[20%] h-[400px]"
         src="/images/warn-sign.png"
       >
       <div class="text-4xl leading-loose whitespace-break-spaces py-7 font-medium">
