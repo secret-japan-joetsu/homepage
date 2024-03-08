@@ -15,11 +15,11 @@
   </div>
   <div class="container grid grid-cols-6 gap-6 my-4">
     <div class="col-span-2 col-start-2 p-6">
-      <NuxtImg
+      <img
         class="w-full"
         height="200"
         src="https://picsum.photos/200"
-      />
+      >
     </div>
     <div class="col-span-3 col-start-4">
       <div class="text-5xl font-bold text-accent">

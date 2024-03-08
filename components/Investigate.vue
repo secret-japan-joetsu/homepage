@@ -23,13 +23,17 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
     <h2 class="text-5xl font-bold text-center">
       浮気調査
     </h2>
-    <NuxtImg src="images/investigate.png" />
+    <img src="/images/investigate.png">
     <div class="p-8 bg-primary">
       <div class="text-5xl font-bold text-white text-center">
         探偵社への依頼で最も多いのがこの浮気・不倫調査です
       </div>
       <div class="grid grid-cols-3 gap-3 mt-4">
-        <div>image</div>
+        <img
+          class="w-full"
+          height="200"
+          src="https://picsum.photos/200"
+        >
         <div class=" text-xl font-medium col-span-2 leading-loose">
           {{ description }}
         </div>
@@ -37,11 +41,11 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
     </div>
 
     <div class="relative">
-      <NuxtImg
+      <img
         class="absolute left-[calc(50%-220px)] top-[20%]"
         height="400"
-        src="images/warn-sign.png"
-      />
+        src="/images/warn-sign.png"
+      >
       <div class="text-4xl leading-loose whitespace-break-spaces py-7 font-medium">
         {{ note1 }}
         {{ note2 }}

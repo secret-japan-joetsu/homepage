@@ -47,11 +47,11 @@
         {{ i.title }}
       </div>
       <div class="grid grid-cols-3 gap-4 mt-2">
-        <NuxtImg
+        <img
           width="200"
           class="text-center"
           src="https://picsum.photos/200"
-        />
+        >
         <div class="col-span-2 whitespace-break-spaces text-md">
           {{ i.description }}
         </div>

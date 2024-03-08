@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt", "@nuxt/image", "nuxt-icon"],
+  modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt", "nuxt-icon"],
   shadcn: {
     /**
      * Prefix for all the imported component

@@ -1,10 +1,10 @@
 <template>
   <div class="container min-h-24 flex items-center flex-row">
     <div>
-      <NuxtImg
+      <img
         width="250"
-        src="images/logo.png"
-      />
+        src="/images/logo.png"
+      >
     </div>
   </div>
 </template>

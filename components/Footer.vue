@@ -18,10 +18,10 @@ const socials = [
 <template>
   <div class="container p-6 grid grid-cols-4 min-h-48 justify-center">
     <div class="col-span-3 h-full flex flex-col justify-between">
-      <NuxtImg
-        src="images/logo.png"
+      <img
+        src="/images/logo.png"
         width="250"
-      />
+      >
       <div class="text-pink-400 text-xs">
         Copyright © 総合探偵社シークレットジャパン中越本部 All Rights Reserved.
       </div>
