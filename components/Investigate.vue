@@ -19,21 +19,27 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
 </script>
 
 <template>
-  <div class="container p-4">
-    <h2 class="text-5xl font-bold text-center">
+  <div
+    id="investigate"
+    class="container p-4"
+  >
+    <h2 class="text-2xl md:text-5xl font-bold text-center">
       浮気調査
     </h2>
-    <img src="/images/investigate.png">
+    <img
+      class="my-4"
+      src="/images/investigate.png"
+    >
     <div class="p-8 bg-primary">
-      <div class="text-5xl font-bold text-white text-center">
+      <div class="text-xl md:text-5xl font-bold text-white text-center">
         探偵社への依頼で最も多いのがこの浮気・不倫調査です
       </div>
-      <div class="grid grid-cols-3 gap-3 mt-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-4">
         <img
           class="w-full"
           src="https://picsum.photos/200"
         >
-        <div class=" text-xl font-medium col-span-2 leading-loose">
+        <div class="text-md md:text-2xl md:font-medium col-span-2 leading-relaxed md:leading-loose whitespace-break-spaces">
           {{ description }}
         </div>
       </div>
@@ -41,14 +47,14 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
 
     <div class="relative">
       <img
-        class="absolute left-[calc(50%-220px)] top-[20%] h-[400px]"
+        class="absolute left-[calc(50%-120px)] md:left-[calc(50%-220px)] top-[14%] md:top-[20%] h-[200px] md:h-[400px]"
         src="/images/warn-sign.png"
       >
-      <div class="text-4xl leading-loose whitespace-break-spaces py-7 font-medium">
+      <div class="text-xl md:text-4xl leading-relaxed md:leading-loose whitespace-break-spaces py-7 font-medium">
         {{ note1 }}
         {{ note2 }}
       </div>
-      <div class="text-3xl leading-loose border-4 p-4 border-red-300 font-medium">
+      <div class="text-xl md:text-4xl leading-relaxed md:leading-loose border-4 p-4 border-red-300 font-medium">
         {{ note3 }}
       </div>
     </div>

@@ -3,29 +3,31 @@
 </script>
 
 <template>
-  <div class="w-full bg-primary p-8 mx-auto">
-    <h2 class="text-5xl font-bold text-center">
+  <div
+    id="introduce"
+    class="w-full bg-primary p-8 mx-auto"
+  >
+    <h2 class="text-2xl md:text-5xl font-bold text-center">
       新潟県内の調査はお任せください
     </h2>
-    <div class="text-3xl leading-relaxed text-white font-medium text-center pt-3 whitespace-break-spaces">
+    <div class="text-xl md:text-3xl leading-relaxed text-white font-medium text-center pt-3 whitespace-break-spaces">
       {{
         "あなたに合った最適プランで \n納得の結果をお出しします\nご相談だけでもOK！\nお気軽にお問い合わせください"
       }}
     </div>
   </div>
-  <div class="container grid grid-cols-6 gap-6 my-4">
-    <div class="col-span-2 col-start-2 p-6">
+  <div class="container grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
+    <div class="p-6">
       <img
         class="w-full"
-        height="200"
         src="https://picsum.photos/200"
       >
     </div>
-    <div class="col-span-3 col-start-4">
-      <div class="text-5xl font-bold text-accent">
+    <div class="col-span-2">
+      <div class="text-2xl md:text-5xl font-bold text-accent">
         プロに依頼するという選択肢
       </div>
-      <div class="text-xl leading-loose whitespace-break-spaces font-medium mt-3">
+      <div class="md:text-xl md:leading-loose whitespace-break-spaces font-medium mt-3">
         {{ description }}
       </div>
     </div>

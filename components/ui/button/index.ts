@@ -11,7 +11,7 @@ export const buttonVariants = cva(
         destructive:
           'bg-destructive text-destructive-foreground hover:bg-destructive/90',
         outline:
-          'border border-input bg-background hover:bg-accent hover:text-accent-foreground',
+          'border-input bg-background hover:bg-secondary hover:text-secondary-foreground shadow-md shadow-slate-300',
         secondary:
           'bg-secondary text-secondary-foreground hover:bg-secondary/80',
         ghost: 'hover:bg-accent hover:text-accent-foreground',
@@ -22,6 +22,7 @@ export const buttonVariants = cva(
         sm: 'h-9 rounded-md px-3',
         lg: 'h-11 rounded-md px-8',
         icon: 'h-10 w-10',
+        iconXL: 'h-16 w-16 rounded-full',
       },
     },
     defaultVariants: {

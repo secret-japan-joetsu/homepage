@@ -53,35 +53,38 @@ const feedbacks = [
 
 
 <template>
-  <div class="text-5xl text-center font-bold mt-12 mb-6">
-    選ばれる理由
-  </div>
-  <div class="w-[60%] mx-auto flex flex-wrap gap-4 justify-center">
-    <div
-      v-for="(fb,index) in feedbacks"
-      :key="index"
-      class="border-2 w-[48%] p-4"
-    >
-      <div class="flex flex-row items-center gap-4 mb-2">
-        <Avatar>
-          <AvatarImage
-            src="https://picsum.photos/200"
-            alt="@radix-vue"
-          />
-          <AvatarFallback>CN</AvatarFallback>
-        </Avatar>
-        <div class="font-medium">
-          <div>{{ fb.name }}</div>
-          <div>{{ fb.title }}</div>
+  <div
+    id="feedback"
+    class="pt-12 md:mb-6"
+  >
+    <div class="text-2xl md:text-5xl text-center font-bold ">
+      お客様の声
+    </div>
+    <div class="md:w-[60%] md:mx-auto p-4 flex flex-wrap gap-4 justify-center">
+      <div
+        v-for="(fb, index) in feedbacks"
+        :key="index"
+        class="border-2 md:w-[48%] p-4"
+      >
+        <div class="flex flex-row items-center gap-4 mb-2">
+          <Avatar size="base">
+            <AvatarImage
+              src="https://picsum.photos/200"
+              alt="@radix-vue"
+            />
+            <AvatarFallback>CN</AvatarFallback>
+          </Avatar>
+          <div class="font-medium">
+            <div>{{ fb.name }}</div>
+            <div>{{ fb.title }}</div>
+          </div>
         </div>
+        <div>{{ fb.content }}</div>
       </div>
-      <div>{{ fb.content }}</div>
     </div>
   </div>
 </template>
 
 
 
-<style scoped>
-
-</style>
+<style scoped></style>

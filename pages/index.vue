@@ -1,5 +1,11 @@
+<script setup lang="ts">
+import FloatingContact from '~/components/ui/FloatingContact.vue';
+import FloatingMenu from '~/components/ui/FloatingMenu.vue';
+
+
+</script>
 <template>
-  <div class="">
+  <div class="relative">
     <Header />
     <Introduce />
     <WhyChoose />
@@ -11,5 +17,13 @@
     <OfficeInfomation />
     <Contact />
     <Footer />
+    <FloatingContact />
+    <FloatingMenu />
   </div>
 </template>
+
+<style>
+html {
+	scroll-behavior: smooth;
+}
+</style>

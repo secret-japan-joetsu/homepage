@@ -34,26 +34,30 @@
 
 
 <template>
-  <div class="text-5xl font-bold text-center mt-12 mb-6">
-    調査項目
-  </div>
-  <div class="w-2/3 mx-auto mt-4">
-    <div
-      v-for="i in items"
-      :key="i.title"
-      :class="[i.bg, 'p-4 min-h-64']"
-    >
-      <div class="text-3xl font-bold">
-        {{ i.title }}
-      </div>
-      <div class="grid grid-cols-3 gap-4 mt-2">
-        <img
-          width="200"
-          class="text-center"
-          src="https://picsum.photos/200"
-        >
-        <div class="col-span-2 whitespace-break-spaces text-md">
-          {{ i.description }}
+  <div
+    id="survey"
+    class="container p-4"
+  >
+    <div class="text-2xl md:text-5xl font-bold text-center mt-12 mb-6">
+      調査項目
+    </div>
+    <div class="md:w-2/3 mx-auto mt-4">
+      <div
+        v-for="i in items"
+        :key="i.title"
+        :class="[i.bg, 'p-4 min-h-64']"
+      >
+        <div class="text-xl md:text-3xl font-bold">
+          {{ i.title }}
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
+          <img
+            class="w-full h-60 object-contain"
+            src="https://picsum.photos/200"
+          >
+          <div class="col-span-2 whitespace-break-spaces text-md">
+            {{ i.description }}
+          </div>
         </div>
       </div>
     </div>
