@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import FloatingContact from '~/components/ui/FloatingContact.vue';
 import FloatingMenu from '~/components/ui/FloatingMenu.vue';
 
 
@@ -16,6 +17,7 @@ import FloatingMenu from '~/components/ui/FloatingMenu.vue';
     <OfficeInfomation />
     <Contact />
     <Footer />
+    <FloatingContact />
     <FloatingMenu />
   </div>
 </template>

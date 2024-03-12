@@ -38,14 +38,14 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
           />
           注意
         </div>
-        <div class="text-xl md:text-4xl whitespace-break-spaces pt-2 md:pt-10 w-full md:w-3/4 mx-auto font-bold">
+        <div class="text-xl md:text-2xl whitespace-break-spaces pt-2 md:pt-10 w-full md:w-3/4 mx-auto font-bold">
           {{ note1 }}
         </div>
-        <div class="text-xl md:text-4xl whitespace-break-spaces pt-2 md:pt-10 font-bold">
+        <div class="text-xl md:text-2xl whitespace-break-spaces pt-2 md:pt-10 font-bold">
           {{ note2 }}
         </div>
       </div>
-      <div class="text-xl md:text-4xl border-4 p-4 md:p-6 border-red-500 font-bold bg-white mt-6 md:mt-10 whitespace-break-spaces rounded-lg">
+      <div class="text-xl md:text-2xl border-4 p-4 md:p-6 border-red-500 font-bold bg-white mt-6 md:mt-10 whitespace-break-spaces rounded-lg">
         {{ note3 }}
       </div>
     </div>
