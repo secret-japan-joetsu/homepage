@@ -27,10 +27,10 @@ const socials = [
       </div>
     </div>
     <div class="hidden md:flex flex-col gap-2">
-      <div class="text-sm whitespace-break-spaces">
+      <div class="text-lg font-bold whitespace-break-spaces">
         {{ '新潟県公安委員会番\n第46230004号' }}
       </div>
-      <div class="text-lg font-medium">
+      <!-- <div class="text-lg font-medium">
         <Icon
           name="ic:twotone-call"
           size="2rem"
@@ -38,15 +38,15 @@ const socials = [
           class="bg-pink-300 rounded-full p-1"
         />
         {{ '0120-519-773' }}
-      </div>
-      <div class="flex gap-2">
+      </div> -->
+      <!-- <div class="flex gap-2">
         <Icon
           v-for="s in socials"
           :key="s.icon"
           :name="s.icon"
           size="1.5rem"
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
