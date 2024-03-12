@@ -16,7 +16,7 @@ const socials = [
 </script>
 
 <template>
-  <div class="container p-6 mb-32 md:mb-0 grid md:grid-cols-4 min-h-48 justify-center">
+  <div class="container p-4 md:p-6 mb-24 md:mb-0 grid md:grid-cols-4 min-h-32 md:min-h-48 justify-center">
     <div class="col-span-3 h-full flex flex-col justify-between">
       <img
         src="/images/logo.png"

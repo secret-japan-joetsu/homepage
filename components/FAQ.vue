@@ -27,34 +27,45 @@
 <template>
   <div
     id="faq"
-    class="container md:w-2/3 mt-6 p-4"
+    class="container md:w-2/3 mt-2 md:mt-6 p-4"
   >
-    <div class="text-2xl md:text-5xl font-bold text-center">
+    <div class="text-3xl md:text-5xl font-bold text-center">
       よくある質問
     </div>
-    <div class="grid grid-cols-1 gap-5 mt-6">
-      <div
+    <div class="grid grid-cols-1 gap-5 mt-2 md:mt-6">
+      <Collapsible
         v-for="(q,index) in questions"
         :key="q.question"
-        class="grid grid-cols-1 divide-y-2 divide-black" 
+        v-slot="{ open }" 
+        class="grid grid-cols-1 divide-y-2 divide-black"
       >
-        <div class="font-bold pt-2 flex gap-4 items-center">
-          <div class=" text-2xl">
-            {{ `Q${index+1}.` }}
+        <CollapsibleTrigger class="flex justify-between items-center text-start pb-2 gap-4">
+          <div class="font-bold pt-2 flex gap-2 md:gap-4 items-center">
+            <div class=" text-xl">
+              {{ `Q${index+1}.` }}
+            </div>
+            <div class="text-xl font-bold">
+              {{ q.question }}
+            </div>
           </div>
-          <div class="text-xl font-bold">
-            {{ q.question }}
+          <div>
+            <Icon
+              size="2em"
+              :name="open ? 'ion:chevron-up' : 'ion:chevron-down'"
+            />
           </div>
-        </div>
-        <div class="pt-2 flex gap-4">
-          <div class="font-bold text-2xl">
-            {{ `A${index+1}.` }}
+        </CollapsibleTrigger>
+        <CollapsibleContent>
+          <div class="pt-2 flex gap-4">
+            <div class="font-bold text-2xl">
+              {{ `A${index+1}.` }}
+            </div>
+            <div class="text-md md:text-lg">
+              {{ q.answer }}
+            </div>
           </div>
-          <div class="text-lg">
-            {{ q.answer }}
-          </div>
-        </div>
-      </div>
+        </CollapsibleContent>
+      </Collapsible>
     </div>
   </div>
 </template>

@@ -23,7 +23,8 @@ import FloatingMenu from '~/components/ui/FloatingMenu.vue';
 </template>
 
 <style>
-html {
+html { 
 	scroll-behavior: smooth;
+  font-family: Hiragino Mincho ProN, sans-serif;
 }
 </style>

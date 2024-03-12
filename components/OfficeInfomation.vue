@@ -6,14 +6,14 @@
 <template>
   <div
     id="faq"
-    class="container md:w-2/3 mt-6 p-4"
+    class="container md:w-2/3 mt-2 md:mt-6 p-4"
   >
     <div class="text-2xl md:text-5xl font-bold text-center">
       事務所概要
     </div>
     
     <img
-      class="w-full object-contain h-[380px] md:h-[600px] my-10"
+      class="w-full object-contain h-[380px] md:h-[600px] my-4 md:my-10"
       src="https://picsum.photos/600"
     >
 

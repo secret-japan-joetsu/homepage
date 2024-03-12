@@ -1,11 +1,5 @@
 <script setup lang="ts">
-  const description = `浮気や不倫の調査は、探偵事務所、興信所への依頼で最も多い事例となっています。
-事実に直面することは心苦しいかもしれませんが、家族を守るのはあなた自身しかできません。
-パートナーが怪しい行動をとっていても、確かな証拠がなければ彼らは言い逃れをすることができます。
-しかし、証拠があれば浮気相手やパートナーに対して慰謝料を請求することが可能となります。
-あなたが経験した辛さの代償は、きちんと請求するべきです。無理に耐える必要はありません。
-自分自身と家族の未来のために、一歩を踏み出しましょう。
-我々が、浮気や不倫のトラブル解決のお手伝いをします。`
+  const description = `浮気や不倫の調査は、探偵事務所、興信所への依頼で最も多い事例となっています。事実に直面することは心苦しいかもしれませんが、家族を守るのはあなた自身しかできません。パートナーが怪しい行動をとっていても、確かな証拠がなければ彼らは言い逃れをすることができます。しかし、証拠があれば浮気相手やパートナーに対して慰謝料を請求することが可能となります。あなたが経験した辛さの代償は、きちんと請求するべきです。無理に耐える必要はありません。自分自身と家族の未来のために、一歩を踏み出しましょう。我々が、浮気や不倫のトラブル解決のお手伝いをします。`
 
 const note1 = `・LINEのやりとり
 ・ホテルのレシート
@@ -21,40 +15,37 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
 <template>
   <div
     id="investigate"
-    class="container p-4"
+    class=" bg-primary"
   >
-    <h2 class="text-2xl md:text-5xl font-bold text-center">
-      浮気調査
-    </h2>
-    <img
-      class="my-4"
-      src="/images/investigate.png"
-    >
-    <div class="p-8 bg-primary">
-      <div class="text-xl md:text-5xl font-bold text-white text-center">
-        探偵社への依頼で最も多いのがこの浮気・不倫調査です
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-4">
+    <div class="p-8 container">
+      <h2 class="text-2xl md:text-5xl font-bold text-center">
+        浮気調査
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-y-6 mt-4">
         <img
-          class="w-full"
+          class="h-36 w-full object-contain"
           src="https://picsum.photos/200"
         >
         <div class="text-md md:text-2xl md:font-medium col-span-2 leading-relaxed md:leading-loose whitespace-break-spaces">
           {{ description }}
         </div>
       </div>
-    </div>
-
-    <div class="relative">
-      <img
-        class="absolute left-[calc(50%-120px)] md:left-[calc(50%-220px)] top-[14%] md:top-[20%] h-[200px] md:h-[400px]"
-        src="/images/warn-sign.png"
-      >
-      <div class="text-xl md:text-4xl leading-relaxed md:leading-loose whitespace-break-spaces py-7 font-medium">
-        {{ note1 }}
-        {{ note2 }}
+      <div class="bg-[#FFF7BE] mt-6 md:mt-12 py-2 md:py-6 px-4 md:px-10 w-full md:w-2/3 mx-auto rounded-lg">
+        <div class="text-2xl md:text-5xl font-bold justify-center items-center flex gap-2">
+          <Icon
+            name="noto-v1:warning"
+            class="text-2xl md:text-6xl "
+          />
+          注意
+        </div>
+        <div class="text-xl md:text-4xl whitespace-break-spaces pt-2 md:pt-10 w-full md:w-3/4 mx-auto font-bold">
+          {{ note1 }}
+        </div>
+        <div class="text-xl md:text-4xl whitespace-break-spaces pt-2 md:pt-10 font-bold">
+          {{ note2 }}
+        </div>
       </div>
-      <div class="text-xl md:text-4xl leading-relaxed md:leading-loose border-4 p-4 border-red-300 font-medium">
+      <div class="text-xl md:text-4xl border-4 p-4 md:p-6 border-red-500 font-bold bg-white mt-6 md:mt-10 whitespace-break-spaces rounded-lg">
         {{ note3 }}
       </div>
     </div>

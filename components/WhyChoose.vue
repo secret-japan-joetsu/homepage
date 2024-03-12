@@ -24,11 +24,11 @@ const items = [
 </script>
 
 <template>
-  <div class="w-full p-8 mx-auto bg-amber-100">
-    <div class="text-2xl md:text-5xl text-center font-bold mb-6">
+  <div class="w-full p-4 md:p-8 mx-auto bg-amber-100">
+    <div class="text-3xl md:text-6xl text-center font-bold mb-2 md:mb-6">
       選ばれる理由
     </div>
-    <div class="container grid md:grid-cols-4 gap-4 ">
+    <div class="container grid md:grid-cols-4 gap-4">
       <div
         v-for="i in items"
         :key="i.title"
