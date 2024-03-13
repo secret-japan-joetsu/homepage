@@ -95,7 +95,7 @@ const feedbacks = [
               size="2.4em"
             />
           </CollapsibleTrigger>
-          <CollapsibleContent class="grid grid-cols-1 md:grid-cols-3 gap-y-4 mx-4">
+          <CollapsibleContent class="grid grid-cols-1 gap-y-4 mx-4">
             <div class="col-span-2 whitespace-break-spaces text-md text-start pb-6">
               {{ fb.content }}
             </div>
