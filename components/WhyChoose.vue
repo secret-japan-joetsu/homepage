@@ -1,22 +1,22 @@
 <script setup lang="ts">
 const items = [
   {
-    icon: "ion:ios-clock-outline",
+    icon: "/images/why-choose/24h.png",
     title: "24時間受付",
     description: "思い立ったら、まず行動。いつでもお問い合わせ受け付けております。",
   },
   {
-    icon: "pepicons-pencil:yen-circle",
+    icon: "/images/why-choose/cost.png",
     title: "安心見積",
     description: "ご相談内容に合わせて、経費込み・追加料金無しの見積もりをご提出させていただきます。",
   },
   {
-    icon: "fluent:scales-20-regular",
+    icon: "/images/why-choose/balance.png",
     title: "弁護士サポート(無料)",
     description: "調査後はご希望に応じて弁護士紹介、弁護士への相談に同行いたします。最後まで安心してお任せください。",
   },
   {
-    icon: "streamline:interface-security-shield-personshield-secure-security-person",
+    icon: "/images/why-choose/protect.png",
     title: "秘密厳守",
     description: "探偵の守秘義務は探偵業法で定められています。調査で知り得た情報を外部へ漏らすことはいたしません。",
   },
@@ -34,12 +34,12 @@ const items = [
         :key="i.title"
         class="bg-white p-6 font-medium"
       >
-        <div class="flex flex-row items-center gap-3 ">
-          <Icon
-            :name="i.icon"
-            size="3rem"
-          />
-          <div class="text-xl md:text-2xl">
+        <div class="flex flex-row items-center gap-x-6">
+          <img
+            class="object-contain h-16 w-16"
+            :src="i.icon"
+          >
+          <div class="text-xl md:text-2xl font-bold">
             {{ i.title }}
           </div>
         </div>

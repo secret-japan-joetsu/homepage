@@ -91,34 +91,36 @@ const table = [
     <div class="text-3xl md:text-5xl text-center font-bold md:my-4">
       料金システム
     </div>
-    <div class=" text-center text-2xl my-6 w-2/3 mx-auto font-bold ">
+    <div class=" text-center text-3xl my-6 md:w-2/3 mx-auto font-bold">
       <span class="border-b-[10px] border-[#FDFE53] leading-relaxed">
         シークレットジャパン中越本部はここが違う
       </span>
     </div>
-    <div class="container p-0 md:w-3/5">
-      <div
-        v-for="i in cost"
-        :key="i.text"
-        :class="['border-[6px] rounded-md bg-white p-2 mb-4 flex items-center gap-2', i.color]"
-      >
-        <Icon
-          :name="i.cost ? 'maki:cross' : 'mdi:checkbox-blank-circle-outline'"
-          size="3.5em"
-          :color="i.cost ? 'red': 'blue'"
-        />
-        <div class="text-xl font-bold text-center">
-          {{ i.text }}
+    <div class="gap-4 p-0 md:w-4/5 mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4"> 
+        <div
+          v-for="i in cost"
+          :key="i.text"
+          :class="['border-[6px] rounded-md bg-white p-2 flex items-center gap-2', i.color]"
+        >
+          <Icon
+            :name="i.cost ? 'maki:cross' : 'mdi:checkbox-blank-circle-outline'"
+            size="3.5em"
+            :color="i.cost ? 'red': 'blue'"
+          />
+          <div class="text-xl md:text-2xl font-bold text-center">
+            {{ i.text }}
+          </div>
         </div>
       </div>
 
-      <div class=" text-center text-2xl my-6 mx-auto font-bold ">
+      <div class=" text-center text-3xl my-6 mx-auto font-bold ">
         <span class="border-b-[10px] border-[#FDFE53] whitespace-break-spaces md:whitespace-normal leading-relaxed">
           {{ '案件毎に価格を提示させて\nいただきます' }}
         </span>
       </div>
 
-      <div class="text-xl font-bold whitespace-break-spaces">
+      <div class="text-xl md:text-2xl font-bold whitespace-break-spaces">
         {{ content }}
       </div>
 
@@ -170,7 +172,7 @@ const table = [
       <div class="text-center">
         <Button
           size="lg"
-          class="bg-green-500 rounded-full shadow-xl text-2xl h-14 font-bold"
+          class="bg-green-500 rounded-full shadow-xl text-2xl h-14 font-bold md:px-32"
         >
           <img
             class="object-contain h-12"

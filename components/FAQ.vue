@@ -57,7 +57,7 @@
         </CollapsibleTrigger>
         <CollapsibleContent>
           <div class="pt-2 flex gap-4">
-            <div class="font-bold text-2xl">
+            <div class="font-bold text-xl md:text-2xl">
               {{ `A${index+1}.` }}
             </div>
             <div class="text-md md:text-lg">

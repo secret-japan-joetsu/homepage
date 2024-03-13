@@ -5,7 +5,7 @@
 <template>
   <div
     id="introduce"
-    class="w-full relative h-[35svh] md:h-[calc(100svh-6rem)] bg-[url('https://picsum.photos/600')] bg-no-repeat bg-cover flex justify-center items-center"
+    class="w-full relative h-[35svh] md:h-[calc(80svh)] bg-[url('/images/TOP/hero-image.jpg')] bg-no-repeat bg-cover flex justify-center items-center"
   >
     <div class="bg-black/50 p-2 md:p-10">
       <h2 class="text-2xl md:text-7xl font-bold text-center text-primary">

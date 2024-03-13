@@ -5,7 +5,7 @@ import FloatingMenu from '~/components/ui/FloatingMenu.vue';
 
 </script>
 <template>
-  <div class="relative">
+  <div class="relative bg-slate-100">
     <Header />
     <Introduce />
     <WhyChoose />

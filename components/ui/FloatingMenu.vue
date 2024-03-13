@@ -3,32 +3,32 @@
 const menu = [
   {
   text: '当社紹介',
-  icon: 'ri:information-2-line',
+  icon: '/images/menu/info.png',
   href: '#introduce'
 },
   {
   text: '浮気調査',
-  icon: 'fluent-emoji-high-contrast:detective',
+  icon: '/images/menu/investigate.png',
   href: '#investigate'
 },
   {
   text: '調査項目',
-  icon: 'streamline:interface-content-book-2-library-content-books-book-shelf-stack',
+  icon: '/images/menu/survey.png',
   href: '#survey'
 },
   {
   text: 'お客様の声',
-  icon: 'ion:ios-person',
+  icon: '/images/menu/feedback.png',
   href: '#feedback'
 },
   {
   text: '料金',
-  icon: 'pepicons-pop:yen-circle',
+  icon: '/images/menu/fee.png',
   href: '#fee'
 },
   {
   text: 'F&Q',
-  icon: 'ci:help-questionmark',
+  icon: '/images/menu/faq.png',
   href: '#faq'
 },
 ]
@@ -64,11 +64,10 @@ const menu = [
             as-child
           >
             <a :href="item.href">
-              <Icon
-                :name="item.icon"
-                size="2rem"
-                color="black"
-              />
+              <img
+                class="object-contain h-9 w-9"
+                :src="item.icon"
+              >
             </a>
           </Button>
         </div>

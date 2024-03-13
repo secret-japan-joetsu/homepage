@@ -30,13 +30,13 @@
       {{ '0120-519-773' }}
     </div>
   </div> -->
-  <div class="md:hidden grid grid-cols-1 w-1/2 mx-auto fixed left-0 right-0 bottom-2">
+  <div class="md:hidden grid grid-cols-1 w-7/12 mx-auto fixed left-0 right-0 bottom-2">
     <Button
       size="lg"
-      class="bg-green-500 w-full rounded-md text-lg"
+      class="bg-green-500 w-full rounded-xl shadow-lg text-lg font-bold h-12"
     >
       <img 
-        class="object-scale-down h-10"
+        class="object-scale-down h-12"
         src="/images/LINE_Brand_icon.png"
       >
       LINEで無料相談

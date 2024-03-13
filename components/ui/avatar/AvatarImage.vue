@@ -6,7 +6,7 @@ const props = defineProps<AvatarImageProps>()
 
 <template>
   <AvatarImage
+    class="object-cover"
     v-bind="props"
-    class="h-full w-full object-cover"
   />
 </template>
