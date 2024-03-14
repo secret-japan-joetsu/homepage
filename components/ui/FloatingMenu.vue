@@ -33,15 +33,16 @@ const menu = [
 },
 ]
 
-const open = ref(true)
 </script>
 
 <template>
   <div class="flex fixed right-2 lg:right-8 bottom-2 lg:bottom-4">
     <Popover
-      :open="open"
+      default-open
     >
-      <PopoverTrigger as-child>
+      <PopoverTrigger
+        as-child
+      >
         <Button
           variant="outline"
           size="iconXL"
