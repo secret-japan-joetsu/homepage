@@ -58,16 +58,16 @@ const feedbacks = [
 <template>
   <div
     id="feedback"
-    class="pt-2 md:pt-6 md:mb-6"
+    class="pt-2 lg:pt-6 lg:mb-6"
   >
-    <div class="text-2xl md:text-5xl text-center font-bold ">
+    <div class="text-2xl lg:text-5xl text-center font-bold ">
       お客様の声
     </div>
-    <div class="md:w-[70%] md:mx-auto p-4 flex flex-wrap gap-4 justify-center">
+    <div class="lg:w-[60%] lg:mx-auto p-4 flex flex-wrap gap-4 justify-center">
       <div
         v-for="(fb, index) in feedbacks"
         :key="index"
-        class="md:w-[48%] w-full flex flex-col"
+        class="lg:w-[48%] w-full flex flex-col"
       >
         <Collapsible
           v-slot="{ open }"

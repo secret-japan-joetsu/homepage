@@ -18,33 +18,33 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
     class=" bg-primary"
   >
     <div class="p-8 container">
-      <h2 class="text-2xl md:text-5xl font-bold text-center">
+      <h2 class="text-2xl lg:text-5xl font-bold text-center">
         浮気調査
       </h2>
       <div class="grid grid-cols-1 gap-y-6 mt-4">   
-        <div class="text-xl md:text-3xl font-bold text-center">
+        <div class="text-xl lg:text-3xl font-bold text-center">
           〜探偵社への依頼で最も多いのがこの浮気・不倫調査です〜
         </div>
-        <div class="text-md md:text-2xl md:font-medium col-span-2 leading-relaxed md:leading-loose whitespace-break-spaces">
+        <div class="text-md lg:text-2xl lg:font-medium col-span-2 leading-relaxed lg:leading-loose whitespace-break-spaces">
           {{ description }}
         </div>
       </div>
-      <div class="bg-[#FFF7BE] mt-6 md:mt-12 py-2 md:py-6 px-4 md:px-10 w-full mx-auto rounded-lg">
-        <div class="text-2xl md:text-5xl font-bold justify-center items-center flex gap-2">
+      <div class="bg-[#FFF7BE] mt-6 lg:mt-12 py-2 lg:py-6 px-4 lg:px-10 w-full mx-auto rounded-lg">
+        <div class="text-2xl lg:text-5xl font-bold justify-center items-center flex gap-2">
           <Icon
             name="noto-v1:warning"
-            class="text-2xl md:text-6xl "
+            class="text-2xl lg:text-6xl "
           />
           注意
         </div>
-        <div class="text-xl md:text-3xl whitespace-break-spaces pt-2 md:pt-10 w-full md:w-2/4 mx-auto font-bold">
+        <div class="text-xl lg:text-3xl whitespace-break-spaces pt-2 lg:pt-10 w-full lg:w-2/4 mx-auto font-bold">
           {{ note1 }}
         </div>
-        <div class="text-xl md:text-3xl whitespace-break-spaces pt-2 md:pt-10 font-bold">
+        <div class="text-xl lg:text-3xl whitespace-break-spaces pt-2 lg:pt-10 font-bold">
           {{ note2 }}
         </div>
       </div>
-      <div class="text-xl md:text-3xl border-4 p-4 md:p-6 border-red-500 font-bold bg-white mt-6 md:mt-10 whitespace-break-spaces rounded-lg">
+      <div class="text-xl lg:text-3xl border-4 p-4 lg:p-6 border-red-500 font-bold bg-white mt-6 lg:mt-10 whitespace-break-spaces rounded-lg">
         {{ note3 }}
       </div>
     </div>

@@ -32,30 +32,35 @@ const menu = [
   href: '#faq'
 },
 ]
+
+const open = ref(true)
 </script>
 
 <template>
-  <div class="flex fixed right-3 md:right-8 bottom-14 md:bottom-4">
-    <Popover>
+  <div class="flex fixed right-2 lg:right-8 bottom-2 lg:bottom-4">
+    <Popover
+      :open="open"
+    >
       <PopoverTrigger as-child>
         <Button
           variant="outline"
           size="iconXL"
+          class="shadow-md shadow-slate-400"
         >
           <Icon
             name="charm:menu-hamburger"
             size="2rem"
             color="black"
-          />
+          /> 
         </Button>
       </PopoverTrigger>
-      <PopoverContent class="flex flex-col gap-4 md:mr-4">
+      <PopoverContent class="flex flex-col gap-1 lg:gap-4 lg:mr-4 p-2 lg:p-4">
         <div
           v-for="item in menu"
           :key="item.href"
           class="flex justify-end items-center gap-2"
         >
-          <div class="bg-gray-600 rounded-md text-white p-2 text-xl">
+          <div class="bg-gray-600 rounded-md text-white p-2 text-md lg:text-xl">
             {{ item.text }}
           </div>
           <Button
@@ -65,7 +70,7 @@ const menu = [
           >
             <a :href="item.href">
               <img
-                class="object-contain h-9 w-9"
+                class="object-contain h-7 w-7 lg:h-9 lg:w-9"
                 :src="item.icon"
               >
             </a>

@@ -5,12 +5,13 @@ import FloatingMenu from '~/components/ui/FloatingMenu.vue';
 
 </script>
 <template>
-  <div class="relative bg-slate-100">
+  <div class="relative">
     <Header />
     <Introduce />
     <WhyChoose />
     <Investigate />
     <Survey />
+    <InvestigateFlow />
     <CustomerFeedback />
     <Fee />
     <FAQ />

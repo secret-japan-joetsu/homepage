@@ -24,27 +24,29 @@ const items = [
 </script>
 
 <template>
-  <div class="w-full p-4 md:p-8 mx-auto bg-amber-100">
-    <div class="text-3xl md:text-6xl text-center font-bold mb-2 md:mb-6">
-      選ばれる理由
-    </div>
-    <div class="container grid md:grid-cols-4 gap-4">
-      <div
-        v-for="i in items"
-        :key="i.title"
-        class="bg-white p-6 font-medium"
-      >
-        <div class="flex flex-row items-center gap-x-6">
-          <img
-            class="object-contain h-16 w-16"
-            :src="i.icon"
-          >
-          <div class="text-xl md:text-2xl font-bold">
-            {{ i.title }}
+  <div class="mx-auto bg-amber-100">
+    <div class="container  p-8 ">
+      <div class="text-2xl lg:text-6xl text-center font-bold mb-2 lg:mb-6">
+        選ばれる理由
+      </div>
+      <div class="grid lg:grid-cols-4 gap-4">
+        <div
+          v-for="i in items"
+          :key="i.title"
+          class="bg-white p-6 font-medium"
+        >
+          <div class="flex flex-row items-center gap-x-6">
+            <img
+              class="object-contain h-12 w-12 lg:h-16 lg:w-16"
+              :src="i.icon"
+            >
+            <div class="text-xl lg:text-2xl font-bold">
+              {{ i.title }}
+            </div>
           </div>
-        </div>
-        <div class="md:text-xl mt-3 md:leading-loose">
-          {{ i.description }}
+          <div class="lg:text-xl mt-3 lg:leading-loose">
+            {{ i.description }}
+          </div>
         </div>
       </div>
     </div>

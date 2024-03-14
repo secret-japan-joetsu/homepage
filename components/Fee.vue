@@ -86,18 +86,18 @@ const table = [
 <template>
   <div
     id="fee"
-    class="w-full bg-primary p-4 mt-4 md:mt-12"
+    class="w-full bg-primary p-4 mt-4 lg:mt-12"
   >
-    <div class="text-3xl md:text-5xl text-center font-bold md:my-4">
+    <div class="text-3xl lg:text-5xl text-center font-bold lg:my-4">
       料金システム
     </div>
-    <div class=" text-center text-3xl my-6 md:w-2/3 mx-auto font-bold">
+    <div class=" text-center text-3xl my-6 lg:w-2/3 mx-auto font-bold">
       <span class="border-b-[10px] border-[#FDFE53] leading-relaxed">
         シークレットジャパン中越本部はここが違う
       </span>
     </div>
-    <div class="gap-4 p-0 md:w-4/5 mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4"> 
+    <div class="gap-4 p-0 lg:w-[60%] mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4"> 
         <div
           v-for="i in cost"
           :key="i.text"
@@ -108,28 +108,28 @@ const table = [
             size="3.5em"
             :color="i.cost ? 'red': 'blue'"
           />
-          <div class="text-xl md:text-2xl font-bold text-center">
+          <div class="text-xl lg:text-2xl font-bold text-center">
             {{ i.text }}
           </div>
         </div>
       </div>
 
       <div class=" text-center text-3xl my-6 mx-auto font-bold ">
-        <span class="border-b-[10px] border-[#FDFE53] whitespace-break-spaces md:whitespace-normal leading-relaxed">
+        <span class="border-b-[10px] border-[#FDFE53] whitespace-break-spaces lg:whitespace-normal leading-relaxed">
           {{ '案件毎に価格を提示させて\nいただきます' }}
         </span>
       </div>
 
-      <div class="text-xl md:text-2xl font-bold whitespace-break-spaces">
+      <div class="text-xl lg:text-2xl font-bold whitespace-break-spaces">
         {{ content }}
       </div>
 
-      <div class="text-3xl md:text-5xl text-center font-bold  mt-4 md:mt-10">
+      <div class="text-3xl lg:text-5xl text-center font-bold  mt-4 lg:mt-10">
         他社との比較例
       </div>
       <div class="overflow-x-auto">
         <table
-          class="table-fixed text-sm md:text-xl text-center w-full bg-white whitespace-break-spaces mt-6 border-collapse border border-slate-400"
+          class="table-fixed text-sm lg:text-xl text-center w-full bg-white whitespace-break-spaces mt-6 border-collapse border border-slate-400"
         >
           <thead>
             <tr>
@@ -172,7 +172,7 @@ const table = [
       <div class="text-center">
         <Button
           size="lg"
-          class="bg-green-500 rounded-full shadow-xl text-2xl h-14 font-bold md:px-32"
+          class="bg-green-500 rounded-full shadow-xl text-2xl h-14 font-bold lg:px-32"
         >
           <img
             class="object-contain h-12"

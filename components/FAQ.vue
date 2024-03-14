@@ -27,20 +27,20 @@
 <template>
   <div
     id="faq"
-    class="container md:w-2/3 mt-2 md:mt-6 p-4"
+    class="container lg:w-2/3 mt-2 lg:mt-6 p-4"
   >
-    <div class="text-3xl md:text-5xl font-bold text-center">
+    <div class="text-3xl lg:text-5xl font-bold text-center">
       よくある質問
     </div>
-    <div class="grid grid-cols-1 gap-5 mt-2 md:mt-6">
+    <div class="grid grid-cols-1 gap-5 mt-2 lg:mt-6">
       <Collapsible
         v-for="(q,index) in questions"
         :key="q.question"
         v-slot="{ open }" 
-        class="grid grid-cols-1 divide-y-2 divide-black"
+        class="grid grid-cols-1"
       >
-        <CollapsibleTrigger class="flex justify-between items-center text-start pb-2 gap-4">
-          <div class="font-bold pt-2 flex gap-2 md:gap-4 items-center">
+        <CollapsibleTrigger class="flex justify-between items-center text-start pb-2 gap-4 border-b-2 border-black">
+          <div class="font-bold pt-2 flex gap-2 lg:gap-4 items-center">
             <div class=" text-xl">
               {{ `Q${index+1}.` }}
             </div>
@@ -57,10 +57,10 @@
         </CollapsibleTrigger>
         <CollapsibleContent>
           <div class="pt-2 flex gap-4">
-            <div class="font-bold text-xl md:text-2xl">
+            <div class="font-bold text-xl lg:text-2xl">
               {{ `A${index+1}.` }}
             </div>
-            <div class="text-md md:text-lg">
+            <div class="text-md lg:text-lg">
               {{ q.answer }}
             </div>
           </div>

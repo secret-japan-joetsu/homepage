@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-16 md:min-h-24 flex items-center flex-row fixed top-0 left-0 right-0 z-50 bg-white shadow-lg">
+  <div class="min-h-16 lg:min-h-24 flex items-center flex-row fixed top-0 left-0 right-0 z-50 bg-white shadow-lg">
     <div class="container flex justify-between items-center max-sm:p-2">
       <img
-        class="object-contain w-[180px] md:w-[280px] h-auto"
+        class="object-contain w-[180px] lg:w-[280px] h-auto"
         src="/images/logo.png"
       >
       <Button

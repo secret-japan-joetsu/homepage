@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <!-- <div class="hidden md:flex fixed left-8 bottom-4 bg-orange-200 p-4 flex-col gap-1 justify-center items-center">
+  <!-- <div class="hidden lg:flex fixed left-8 bottom-4 bg-orange-200 p-4 flex-col gap-1 justify-center items-center">
     <div class="text-2xl font-bold">
       お問い合わせ
     </div>
@@ -30,13 +30,13 @@
       {{ '0120-519-773' }}
     </div>
   </div> -->
-  <div class="md:hidden grid grid-cols-1 w-7/12 mx-auto fixed left-0 right-0 bottom-2">
+  <div class="lg:hidden grid grid-cols-1 w-7/12 mx-auto fixed left-0 right-0 bottom-3">
     <Button
       size="lg"
-      class="bg-green-500 w-full rounded-xl shadow-lg text-lg font-bold h-12"
+      class="bg-green-500 w-full rounded-xl shadow-md shadow-slate-400 text-lg font-bold h-10"
     >
       <img 
-        class="object-scale-down h-12"
+        class="object-scale-down h-10"
         src="/images/LINE_Brand_icon.png"
       >
       LINEで無料相談
