@@ -5,7 +5,6 @@
 
 <template>
   <div
-    id="faq"
     class="container lg:w-2/3 mt-2 lg:mt-6 p-4"
   >
     <div class="text-2xl lg:text-5xl font-bold text-center">

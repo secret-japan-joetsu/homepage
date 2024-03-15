@@ -2,60 +2,84 @@
 
 const menu = [
   {
-  text: '当社紹介',
-  icon: '/images/menu/info.png',
-  href: '#introduce'
-},
+    text: '当社紹介',
+    icon: '/images/menu/info.png',
+    href: 'introduce'
+  },
   {
-  text: '浮気調査',
-  icon: '/images/menu/investigate.png',
-  href: '#investigate'
-},
+    text: '浮気調査',
+    icon: '/images/menu/investigate.png',
+    href: 'investigate'
+  },
   {
-  text: '調査項目',
-  icon: '/images/menu/survey.png',
-  href: '#survey'
-},
+    text: '調査項目',
+    icon: '/images/menu/survey.png',
+    href: 'survey'
+  },
   {
-  text: 'お客様の声',
-  icon: '/images/menu/feedback.png',
-  href: '#feedback'
-},
+    text: 'お客様の声',
+    icon: '/images/menu/feedback.png',
+    href: 'feedback'
+  },
   {
-  text: '料金',
-  icon: '/images/menu/fee.png',
-  href: '#fee'
-},
+    text: '料金',
+    icon: '/images/menu/fee.png',
+    href: 'fee'
+  },
   {
-  text: 'F&Q',
-  icon: '/images/menu/faq.png',
-  href: '#faq'
-},
+    text: 'F&Q',
+    icon: '/images/menu/faq.png',
+    href: 'faq'
+  },
 ]
+
+const open = ref(true)
+const timeoutId = ref()
+const changeState = () => open.value = !open.value
+
+onMounted(() => {
+  timeoutId.value = setTimeout(() => {
+    open.value = false
+  }, 3000)
+})
+
+onUnmounted(() => {
+  if(timeoutId.value !== null) clearTimeout(timeoutId.value)
+})
+
+const scrollToSection = (id: string) => {
+  if(timeoutId.value !== null) clearTimeout(timeoutId.value)
+  const section = document.getElementById(id)
+  section?.scrollIntoView()
+}
+
 
 </script>
 
 <template>
   <div class="flex fixed right-2 lg:right-8 bottom-2 lg:bottom-4">
     <Popover
+      :open="open"
       default-open
     >
-      <PopoverTrigger
-        as-child
-      >
+      <PopoverTrigger as-child>
         <Button
           variant="outline"
           size="iconXL"
           class="shadow-md shadow-slate-400"
+          @click="changeState"
         >
           <Icon
             name="charm:menu-hamburger"
             size="2rem"
             color="black"
-          /> 
+          />
         </Button>
       </PopoverTrigger>
-      <PopoverContent class="flex flex-col gap-1 lg:gap-4 lg:mr-4 p-2 lg:p-4">
+      <PopoverContent
+        class="flex flex-col gap-1 lg:gap-4 lg:mr-4 p-2 lg:p-4"
+        side="top"
+      >
         <div
           v-for="item in menu"
           :key="item.href"
@@ -67,14 +91,12 @@ const menu = [
           <Button
             variant="outline"
             size="iconXL"
-            as-child
+            @click="scrollToSection(item.href)"
           >
-            <a :href="item.href">
-              <img
-                class="object-contain h-7 w-7 lg:h-9 lg:w-9"
-                :src="item.icon"
-              >
-            </a>
+            <img
+              class="object-contain h-7 w-7 lg:h-9 lg:w-9"
+              :src="item.icon"
+            >
           </Button>
         </div>
       </PopoverContent>
@@ -84,6 +106,4 @@ const menu = [
 
 
 
-<style scoped>
-
-</style>
+<style scoped></style>

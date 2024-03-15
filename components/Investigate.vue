@@ -15,7 +15,7 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
 <template>
   <div
     id="investigate"
-    class=" bg-primary"
+    class="bg-primary scroll-mt-16 lg:scroll-mt-24"
   >
     <div class="p-8 container">
       <h2 class="text-2xl lg:text-5xl font-bold text-center">

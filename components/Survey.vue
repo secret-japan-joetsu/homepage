@@ -82,7 +82,7 @@ const surveys = [
 <template>
   <div
     id="survey"
-    class="bg-[#F7F7F7]"
+    class="bg-[#F7F7F7] scroll-mt-16 lg:scroll-mt-24"
   >
     <div class="container p-4">
       <div class="text-2xl lg:text-6xl font-bold text-center mt-2 lg:mt-6 mb-6">

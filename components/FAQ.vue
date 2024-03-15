@@ -27,7 +27,7 @@
 <template>
   <div
     id="faq"
-    class="container lg:w-2/3 mt-2 lg:mt-6 p-4"
+    class="container lg:w-2/3 mt-2 lg:mt-6 p-4 scroll-mt-16 lg:scroll-mt-24"
   >
     <div class="text-3xl lg:text-5xl font-bold text-center">
       よくある質問

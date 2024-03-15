@@ -58,7 +58,7 @@ const feedbacks = [
 <template>
   <div
     id="feedback"
-    class="pt-2 lg:pt-6 lg:mb-6"
+    class="pt-2 lg:pt-6 lg:mb-6 scroll-mt-16 lg:scroll-mt-24"
   >
     <div class="text-2xl lg:text-5xl text-center font-bold ">
       お客様の声
@@ -108,4 +108,5 @@ const feedbacks = [
 
 
 
-<style scoped></style>
+<style scoped>
+</style>

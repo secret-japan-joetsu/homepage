@@ -86,7 +86,7 @@ const table = [
 <template>
   <div
     id="fee"
-    class="w-full bg-primary p-4 mt-4 lg:mt-12"
+    class="w-full bg-primary p-4 mt-4 lg:mt-12 scroll-mt-16 lg:scroll-mt-24"
   >
     <div class="text-3xl lg:text-5xl text-center font-bold lg:my-4">
       料金システム
