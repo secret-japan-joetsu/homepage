@@ -58,7 +58,7 @@ const flows = [
           v-slot="{ open }"
           class="bg-green-700 rounded-md"
         >
-          <CollapsibleTrigger class="flex justify-between text-white text-2xl font-bold w-full text-start p-4">
+          <CollapsibleTrigger class="flex justify-between text-white text-2xl font-bold w-full text-start p-4 items-center">
             {{ f.title }}
             <Icon
               :name="open ? 'ion:chevron-up' : 'ion:chevron-down'"

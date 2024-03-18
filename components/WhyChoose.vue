@@ -29,7 +29,7 @@ const items = [
       <div class="text-2xl lg:text-6xl text-center font-bold mb-2 lg:mb-6">
         選ばれる理由
       </div>
-      <div class="grid lg:grid-cols-4 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div
           v-for="i in items"
           :key="i.title"

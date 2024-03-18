@@ -91,12 +91,12 @@ const table = [
     <div class="text-3xl lg:text-5xl text-center font-bold lg:my-4">
       料金システム
     </div>
-    <div class=" text-center text-3xl my-6 lg:w-2/3 mx-auto font-bold">
+    <div class=" text-center text-3xl my-6 w-full lg:w-2/3 mx-auto font-bold">
       <span class="border-b-[10px] border-[#FDFE53] leading-relaxed">
         シークレットジャパン中越本部はここが違う
       </span>
     </div>
-    <div class="gap-4 p-0 lg:w-[60%] mx-auto">
+    <div class="gap-4 p-0 container sm:w-[80%] lg:w-[60%] mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4"> 
         <div
           v-for="i in cost"

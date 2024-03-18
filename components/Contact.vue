@@ -7,8 +7,8 @@
     <div class="w-2/3 mx-auto text-2xl lg:text-5xl text-center font-bold mb-4 lg:my-4 whitespace-break-spaces">
       {{ '初回相談、完全無料！\nまずはあなたのお悩みをご相談ください！' }}
     </div>
-    <div class="lg:container grid lg:grid-cols-2 lg:justify-center gap-y-4 lg:mt-12">
-      <div class="divide-y lg:divide-y-2 divide-slate-700 lg:w-3/4 lg:mx-auto">
+    <div class="lg:container grid md:grid-cols-2 lg:justify-center gap-y-4 lg:mt-12">
+      <div class="divide-y lg:divide-y-2 divide-slate-700 md:w-3/4 md:mx-auto">
         <div class="text-xl lg:text-4xl text-center font-bold">
           {{ 'お電話での問い合わせ' }}
         </div>
@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class=" divide-y lg:divide-y-2 divide-slate-700 lg:w-3/4 lg:mx-auto">
+      <div class="divide-y lg:divide-y-2 divide-slate-700 md:w-3/4 md:mx-auto">
         <div class="text-xl lg:text-4xl text-center font-bold">
           {{ 'LINEでの問い合わせ' }}
         </div>

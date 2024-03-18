@@ -30,7 +30,7 @@
       {{ '0120-519-773' }}
     </div>
   </div> -->
-  <div class="lg:hidden grid grid-cols-1 w-7/12 mx-auto fixed left-0 right-0 bottom-3">
+  <div class="md:hidden grid grid-cols-1 w-7/12 mx-auto fixed left-0 right-0 bottom-3">
     <Button
       size="lg"
       class="bg-green-500 w-full rounded-xl shadow-md shadow-slate-400 text-lg font-bold h-10"
