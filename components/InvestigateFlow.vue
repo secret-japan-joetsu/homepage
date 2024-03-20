@@ -54,6 +54,11 @@ const flows = [
         :key="f.title"
         class="text-center"
       >
+        <img
+          class="w-full h-40 object-cover lg:order-last hidden"
+          :src="f.image"
+          rel="preload"
+        >
         <Collapsible
           v-slot="{ open }"
           class="bg-green-700 rounded-md"
@@ -70,6 +75,7 @@ const flows = [
               <img
                 class="w-full h-40 object-cover lg:order-last"
                 :src="f.image"
+                rel="preload"
               >
               <div class="col-span-2 whitespace-break-spaces text-xl text-start">
                 {{ f.description }}
