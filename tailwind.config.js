@@ -19,6 +19,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['HiraginoMinchoProN'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
