@@ -8,10 +8,10 @@
     class="w-full relative h-[42svh] md:h-[60svh]  lg:h-[calc(80svh)] bg-[url('/images/TOP/hero-image.jpg')] bg-no-repeat bg-cover flex justify-center items-center"
   >
     <div class="bg-black/50 p-2 md:p-6 lg:p-8 mt-16 md:mt-20 lg:mt-24 backdrop-brightness-100">
-      <h2 class="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-bold text-center text-primary">
+      <h2 class="text-xl sm:text-3xl md:text-5xl xl:text-7xl font-bold text-center text-primary">
         新潟県内の調査はお任せください
       </h2>
-      <div class="text-lg md:text-3xl lg:text-5xl leading-tight lg:leading-normal text-white font-bold text-center mt-2 md:mt-5 lg:mt-10 whitespace-break-spaces">
+      <div class="text-lg md:text-3xl xl:text-5xl leading-tight md:leading-normal xl:leading-normal text-white font-bold text-center mt-2 md:mt-5 xl:mt-10 whitespace-break-spaces">
         {{
           "あなたに合った最適プランで \n納得の結果をお出しします\nご相談だけでもOK！\nお気軽にお問い合わせください"
         }}

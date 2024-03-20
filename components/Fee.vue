@@ -96,7 +96,7 @@ const table = [
         シークレットジャパン中越本部はここが違う
       </span>
     </div>
-    <div class="gap-4 p-0 container sm:w-[80%] lg:w-[60%] mx-auto">
+    <div class="gap-4 p-0 container sm:w-[80%] xl:w-[75%] 2xl:w-[65%] mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4"> 
         <div
           v-for="i in cost"
@@ -108,7 +108,7 @@ const table = [
             size="3.5em"
             :color="i.cost ? 'red': 'blue'"
           />
-          <div class="text-xl lg:text-2xl font-bold text-center">
+          <div class="text-xl xl:text-2xl font-bold text-center">
             {{ i.text }}
           </div>
         </div>

@@ -4,7 +4,7 @@
 
 <template>
   <div class="w-full bg-amber-300 p-4 mt-6 lg:mt-12">
-    <div class="w-2/3 mx-auto text-2xl lg:text-5xl text-center font-bold mb-4 lg:my-4 whitespace-break-spaces">
+    <div class=" mx-auto text-2xl lg:text-5xl text-center font-bold mb-4 lg:my-4 whitespace-break-spaces">
       {{ '初回相談、完全無料！\nまずはあなたのお悩みをご相談ください！' }}
     </div>
     <div class="lg:container grid md:grid-cols-2 lg:justify-center gap-y-4 lg:mt-12">
