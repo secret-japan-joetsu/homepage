@@ -20,7 +20,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['HiraginoMinchoProN'],
+        sans: ['hiragino-mincho-pron'],
       },
       colors: {
         border: "hsl(var(--border))",

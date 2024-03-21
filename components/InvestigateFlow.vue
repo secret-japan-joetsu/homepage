@@ -45,7 +45,7 @@ const flows = [
   <div
     class="container p-4"
   >
-    <div class="text-2xl lg:text-6xl font-bold text-center mt-6 lg:mt-12 mb-6">
+    <div class="text-2xl lg:text-5xl font-bold text-center mt-6 lg:mt-12 mb-6">
       調査の流れ
     </div>
     <div class="lg:w-2/3 mx-auto grid grid-cols-1">
@@ -77,7 +77,7 @@ const flows = [
                 :src="f.image"
                 rel="preload"
               >
-              <div class="col-span-2 whitespace-break-spaces text-xl text-start">
+              <div class="col-span-2 whitespace-break-spaces text-lg text-start">
                 {{ f.description }}
               </div>
             </div>

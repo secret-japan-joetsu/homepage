@@ -25,27 +25,29 @@ const note3 = `当社はお客様の立場に立ち、関係の修復を望む�
         <div class="text-xl lg:text-3xl font-bold text-center">
           〜探偵社への依頼で最も多いのがこの浮気・不倫調査です〜
         </div>
-        <div class="text-md lg:text-2xl lg:font-medium col-span-2 leading-relaxed lg:leading-loose whitespace-break-spaces">
+        <div class="text-lg col-span-2 leading-relaxed lg:leading-loose whitespace-break-spaces">
           {{ description }}
         </div>
       </div>
-      <div class="bg-[#FFF7BE] mt-6 lg:mt-12 py-2 lg:py-6 px-4 lg:px-10 w-full mx-auto rounded-lg">
-        <div class="text-2xl lg:text-5xl font-bold justify-center items-center flex gap-2">
-          <Icon
-            name="noto-v1:warning"
-            class="text-2xl lg:text-6xl "
-          />
-          注意
+      <div class="xl:w-[60%] lg:w-[90%] w-full mx-auto">
+        <div class="bg-[#FFF7BE] mt-6 lg:mt-12 py-2 lg:py-6 px-4 lg:px-10 w-full mx-auto rounded-lg">
+          <div class="text-2xl lg:text-5xl font-bold justify-center items-center flex gap-2">
+            <Icon
+              name="noto-v1:warning"
+              class="text-2xl lg:text-6xl "
+            />
+            注意
+          </div>
+          <div class="text-lg whitespace-break-spaces pt-2 lg:pt-10 w-full lg:w-2/4 mx-auto font-bold">
+            {{ note1 }}
+          </div>
+          <div class="text-lg whitespace-break-spaces pt-2 lg:pt-10 font-bold">
+            {{ note2 }}
+          </div>
         </div>
-        <div class="text-xl lg:text-3xl whitespace-break-spaces pt-2 lg:pt-10 w-full lg:w-2/4 mx-auto font-bold">
-          {{ note1 }}
+        <div class="text-lg border-4 p-4 lg:p-6 border-red-500 font-bold bg-white mt-6 lg:mt-10 whitespace-break-spaces rounded-lg">
+          {{ note3 }}
         </div>
-        <div class="text-xl lg:text-3xl whitespace-break-spaces pt-2 lg:pt-10 font-bold">
-          {{ note2 }}
-        </div>
-      </div>
-      <div class="text-xl lg:text-3xl border-4 p-4 lg:p-6 border-red-500 font-bold bg-white mt-6 lg:mt-10 whitespace-break-spaces rounded-lg">
-        {{ note3 }}
       </div>
     </div>
   </div>

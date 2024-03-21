@@ -76,9 +76,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-@font-face {
-  font-family: 'HiraginoMinchoProN';
-  font-weight: normal;
-  src: url('/fonts/HiraginoMinchoProN.otf')
-}

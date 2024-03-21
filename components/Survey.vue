@@ -85,7 +85,7 @@ const surveys = [
     class="bg-[#F7F7F7] scroll-mt-16 lg:scroll-mt-24"
   >
     <div class="container p-4">
-      <div class="text-2xl lg:text-6xl font-bold text-center mt-2 lg:mt-6 mb-6">
+      <div class="text-2xl lg:text-5xl font-bold text-center mt-2 lg:mt-6 mb-6">
         調査項目
       </div>
       <div class="mx-auto mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8">

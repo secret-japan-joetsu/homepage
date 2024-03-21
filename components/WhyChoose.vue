@@ -26,10 +26,10 @@ const items = [
 <template>
   <div class="mx-auto bg-amber-100">
     <div class="container  p-8 ">
-      <div class="text-2xl lg:text-6xl text-center font-bold mb-2 lg:mb-6">
+      <div class="text-2xl lg:text-5xl text-center font-bold mb-2 lg:mb-6">
         選ばれる理由
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-4 gap-4">
         <div
           v-for="i in items"
           :key="i.title"
@@ -40,11 +40,11 @@ const items = [
               class="object-contain h-12 w-12 lg:h-16 lg:w-16"
               :src="i.icon"
             >
-            <div class="text-xl lg:text-2xl font-bold">
+            <div class="text-xl font-bold">
               {{ i.title }}
             </div>
           </div>
-          <div class="lg:text-xl mt-3 lg:leading-loose">
+          <div class="lg:text-lg mt-3 lg:leading-loose">
             {{ i.description }}
           </div>
         </div>

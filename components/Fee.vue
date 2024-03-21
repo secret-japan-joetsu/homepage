@@ -120,7 +120,7 @@ const table = [
         </span>
       </div>
 
-      <div class="text-xl lg:text-2xl font-bold whitespace-break-spaces">
+      <div class="text-lg font-bold whitespace-break-spaces">
         {{ content }}
       </div>
 
