@@ -25,6 +25,7 @@
     "@nuxt/fonts": "^0.2.1",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "eslint": "^8.57.0",
+    "nuxt-gtag": "^2.0.5",
     "nuxt-icon": "^0.6.9",
     "shadcn-nuxt": "^0.10.0"
   }
