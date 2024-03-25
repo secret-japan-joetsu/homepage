@@ -5,7 +5,7 @@
 <template>
   <div class="w-full bg-amber-300 p-4 mt-6 lg:mt-12">
     <div class=" mx-auto text-2xl lg:text-5xl text-center font-bold mb-4 lg:my-4 whitespace-break-spaces">
-      {{ '初回相談、完全無料！\nまずはあなたのお悩みをご相談ください！' }}
+      {{ '相談、完全無料！\nまずはあなたのお悩みをご相談ください！' }}
     </div>
     <div class="lg:container grid md:grid-cols-2 lg:justify-center gap-y-4 lg:mt-12">
       <div class="divide-y lg:divide-y-2 divide-slate-700 md:w-3/4 md:mx-auto">

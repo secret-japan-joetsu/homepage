@@ -3,7 +3,7 @@ const items = [
   {
     icon: "/images/why-choose/24h.png",
     title: "24時間受付",
-    description: "思い立ったら、まず行動。いつでもお問い合わせ受け付けております。",
+    description: "24時間365日いつでもお問い合わせ受け付けております。",
   },
   {
     icon: "/images/why-choose/cost.png",
@@ -12,8 +12,8 @@ const items = [
   },
   {
     icon: "/images/why-choose/balance.png",
-    title: "弁護士サポート(無料)",
-    description: "調査後はご希望に応じて弁護士紹介、弁護士への相談に同行いたします。最後まで安心してお任せください。",
+    title: "弁護士サポート",
+    description: "調査後はご希望に応じて弁護士を紹介し、弁護士への相談に同行いたします。最後まで安心してお任せください。",
   },
   {
     icon: "/images/why-choose/protect.png",

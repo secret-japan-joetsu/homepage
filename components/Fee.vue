@@ -1,28 +1,28 @@
 <script setup lang="ts">
 const cost = [
   {
-    text: '安易な価格表示は致しません',
-    cost: true,
-    color: 'border-red-600'
+    text: '追加の費用・経費は頂きません',
+    cost: false,
+    color: 'border-blue-600'
   },
   {
-    text: '無駄な費用は不要です',
-    cost: true,
-    color: 'border-red-600'
+    text: '調査員の増員は無料です',
+    cost: false,
+    color: 'border-blue-600'
   },
   {
-    text: '追加の費用・経費は頂きません。',
-    cost: true,
-    color: 'border-red-600'
+    text: '相談・面談何度でも無料です',
+    cost: false,
+    color: 'border-blue-600'
   },
   {
-    text: '案件毎の見積りで安心です',
+    text: 'あなただけの最適プランを用意します',
     cost: false,
     color: 'border-blue-600'
   },
 ]
 
-const content = `当社では安易な価格表示は行っておりません。本来調査とは、内容・期間・地域・難易度等によって変動するものです。当社では案件ごとに適正価格でのお見積りを提出し、徹底的に無駄な経費を省いています。だからこそ、グループ全体で業界最安値を実現しています。また、安かろう悪かろうの仕事をするつもりもありません。金額の大小に関わらず、常に正確な調査を実施いたします。お見積りをご希望の方は、一度お問い合わせください。`
+const content = `探偵の調査は、内容・期間・地域・難易度等によって変動するものです。当社では案件ごとに適正価格でのお見積りを出し、徹底的に無駄な経費を省いています。だからこそ、グループ全体で業界最安値を実現しています。また、安かろう悪かろうの仕事は致しません。金額の大小に関わらず、常に正確な調査を実施いたします。お見積りをご希望の方は、一度お問い合わせください。`
 
 
 const table = [
@@ -93,7 +93,7 @@ const table = [
     </div>
     <div class=" text-center text-3xl my-6 w-full lg:w-2/3 mx-auto font-bold">
       <span class="border-b-[10px] border-[#FDFE53] leading-relaxed">
-        シークレットジャパン中越本部はここが違う
+        シークレットジャパン上越・柏崎本部はここが違う
       </span>
     </div>
     <div class="gap-4 p-0 container sm:w-[80%] xl:w-[75%] 2xl:w-[65%] mx-auto">
@@ -114,13 +114,13 @@ const table = [
         </div>
       </div>
 
-      <div class=" text-center text-3xl my-6 mx-auto font-bold ">
+      <!-- <div class=" text-center text-3xl my-6 mx-auto font-bold ">
         <span class="border-b-[10px] border-[#FDFE53] whitespace-break-spaces lg:whitespace-normal leading-relaxed">
           {{ '案件毎に価格を提示させて\nいただきます' }}
         </span>
-      </div>
+      </div> -->
 
-      <div class="text-lg font-bold whitespace-break-spaces">
+      <div class="text-lg font-bold my-6 whitespace-break-spaces">
         {{ content }}
       </div>
 
@@ -166,8 +166,8 @@ const table = [
           </tbody>
         </table>
       </div>
-      <div class="border-[6px] rounded-md bg-white p-3 text-xl font-bold text-center  border-red-500 text-red-500 my-4">
-        内容・金額にご納得いただけない場合、遠慮なくお断りください
+      <div class="border-[6px] rounded-md bg-white p-3 text-xl font-bold text-center  border-red-500 text-red-500 my-4 whitespace-break-spaces">
+        {{ "内容・金額にご納得いただけない場合、遠慮なくお断りください。\n以後こちらから営業等のご連絡は一切行いません。" }}
       </div>
       <div class="text-center">
         <Button

@@ -7,7 +7,7 @@ const menu = [
     href: 'introduce'
   },
   {
-    text: '浮気調査',
+    text: '浮気・不倫調査',
     icon: '/images/menu/investigate.png',
     href: 'investigate'
   },
