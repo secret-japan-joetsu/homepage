@@ -136,7 +136,7 @@ const table = [
             <tr>
               <th class="border border-slate-400 w-[16%]" />
               <th class="border border-slate-400 bg-green-700 text-white p-3 w-[30%]">
-                {{ 'シークレット\nジャパン\n中越柏崎本部' }}
+                {{ 'シークレット\nジャパン\n上越・柏崎本部' }}
               </th>
               <th class="border border-slate-400">
                 A社

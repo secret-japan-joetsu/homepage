@@ -50,7 +50,7 @@
           届出
         </div>
         <div class="col-span-3">
-          第46240005号
+          新潟県公安委員会 第46240005号
         </div>
       </div>
       <div class="border border-slate-700" />
