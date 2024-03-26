@@ -13,7 +13,7 @@
       </h2>
       <div class="text-lg md:text-3xl leading-tight md:leading-normal xl:leading-normal text-white font-bold text-center mt-2 md:mt-5 whitespace-break-spaces">
         {{
-          "ご依頼者様がお気軽に相談できるように\n24時間365日対応しています。相\n談、面談料は無料です。"
+          "ご依頼者様がお気軽に相談できるように\n24時間365日対応しています。\n相談、面談料は無料です。"
         }}
       </div>
     </div>
