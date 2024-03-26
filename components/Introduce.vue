@@ -20,7 +20,7 @@
   </div>
   <div class="container md:w-2/3 p-4 mx-auto my-8 justify-center items-center">
     <div class="xl:w-[70%] lg:w-[90%] w-full mx-auto">
-      <div class="text-xl md:text-2xl lg:text-5xl font-bold text-accent">
+      <div class="text-xl md:text-2xl lg:text-5xl font-bold text-accent text-center">
         初めての方へ
       </div>
       <div class="text-lg lg:leading-loose whitespace-break-spaces font-bold md:mt-3">

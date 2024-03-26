@@ -10,14 +10,11 @@
     <div class="lg:container grid md:grid-cols-2 lg:justify-center gap-y-4 lg:mt-12">
       <div class="divide-y lg:divide-y-2 divide-slate-700 md:w-3/4 md:mx-auto">
         <div class="text-xl lg:text-4xl text-center font-bold">
-          {{ 'お電話での問い合わせ' }}
+          {{ 'メールでのお問い合わせ' }}
         </div>
         <div class="mt-0 lg:mt-4 pt-0 lg:pt-4">
           <div class="text-xl lg:text-3xl text-center font-bold">
-            {{ 'メアドメアドメアドメアド' }}
-          </div>
-          <div class="text-sm text-center font-bold">
-            {{ '受付時間：24時間365日' }}
+            {{ 'secret.japan.joetsu@gmail.com' }}
           </div>
         </div>
       </div>
@@ -27,14 +24,20 @@
         </div>
         <div class="text-center mt-0 lg:mt-4 pt-2 lg:pt-4">
           <Button
-            size="lg"
+            size="lg" 
+            as-child
             class="bg-green-500 rounded-full shadow-xl text-2xl font-bold"
           >
-            <img
-              class="object-contain h-10"
-              src="/images/LINE_Brand_icon.png"
+            <a
+              href="https://lin.ee/HqEAKtY"
+              target="_blank"
             >
-            無料相談受付中
+              <img
+                class="object-contain h-10"
+                src="/images/LINE_Brand_icon.png"
+              >
+              無料相談受付中
+            </a>
           </Button>
         </div>
       </div>

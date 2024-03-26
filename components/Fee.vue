@@ -172,13 +172,19 @@ const table = [
       <div class="text-center">
         <Button
           size="lg"
+          as-child
           class="bg-green-500 rounded-full shadow-xl text-2xl h-14 font-bold lg:px-32"
         >
-          <img
-            class="object-contain h-12"
-            src="/images/LINE_Brand_icon.png"
+          <a
+            href="https://lin.ee/HqEAKtY"
+            target="_blank"
           >
-          無料相談受付中
+            <img
+              class="object-contain h-12"
+              src="/images/LINE_Brand_icon.png"
+            >
+            無料相談受付中
+          </a>
         </Button>
       </div>
     </div>

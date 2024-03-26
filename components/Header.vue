@@ -17,13 +17,19 @@
       </div>
       <Button
         size="lg"
+        as-child
         class="bg-green-500 rounded-lg shadow-md text-xl lg:text-2xl font-bold h-10 lg:h-12 hidden md:flex"
       >
-        <img
-          class="object-contain h-9 lg:h-12"
-          src="/images/LINE_Brand_icon.png"
+        <a
+          href="https://lin.ee/HqEAKtY"
+          target="_blank"
         >
-        無料相談受付中
+          <img
+            class="object-contain h-9 lg:h-12"
+            src="/images/LINE_Brand_icon.png"
+          >
+          無料相談受付中
+        </a>
       </Button>
     </div>
   </div>

@@ -33,13 +33,19 @@
   <div class="md:hidden grid grid-cols-1 w-7/12 mx-auto fixed left-0 right-0 bottom-3">
     <Button
       size="lg"
+      as-child
       class="bg-green-500 w-full rounded-xl shadow-md shadow-slate-400 text-lg font-bold h-10"
     >
-      <img 
-        class="object-scale-down h-10"
-        src="/images/LINE_Brand_icon.png"
+      <a
+        href="https://lin.ee/HqEAKtY"
+        target="_blank"
       >
-      LINEで無料相談
+        <img 
+          class="object-scale-down h-10"
+          src="/images/LINE_Brand_icon.png"
+        >
+        LINEで無料相談
+      </a>
     </Button>
   </div>
 </template>

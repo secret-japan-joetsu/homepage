@@ -22,7 +22,7 @@
           事務所名
         </div>
         <div class="col-span-3">
-          総合探偵社シークレットジャパン中越本部
+          シークレットジャパン上越・柏崎本部
         </div>
       </div>
       <div class="border border-slate-700" />
@@ -49,7 +49,7 @@
           届出
         </div>
         <div class="col-span-3">
-          総合探偵社シークレットジャパン中越本部
+          第46240005号
         </div>
       </div>
       <div class="border border-slate-700" />
