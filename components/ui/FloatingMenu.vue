@@ -27,7 +27,7 @@ const menu = [
     href: 'fee'
   },
   {
-    text: 'F&Q',
+    text: 'よくある質問',
     icon: '/images/menu/faq.png',
     href: 'faq'
   },

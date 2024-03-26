@@ -28,9 +28,9 @@ const content = `探偵の調査は、内容・期間・地域・難易度等に
 const table = [
   {
     rowTitle: '調査\n時間',
-    main: '1日(基本）',
-    a: '1日（3時間迄）',
-    b: '1日（3時間迄）'
+    main: '1日(基本)',
+    a: '1日(3時間迄)',
+    b: '1日(3時間迄)'
   },
   {
     rowTitle: '調査\n費用',
@@ -96,7 +96,7 @@ const table = [
         シークレットジャパン上越・柏崎本部はここが違う
       </span>
     </div>
-    <div class="gap-4 p-0 container sm:w-[80%] xl:w-[75%] 2xl:w-[65%] mx-auto">
+    <div class="gap-4 p-0 container sm:w-[85%] md:w-[80%] xl:w-[70%] 2xl:w-[65%] mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4"> 
         <div
           v-for="i in cost"
@@ -106,9 +106,10 @@ const table = [
           <Icon
             :name="i.cost ? 'maki:cross' : 'mdi:checkbox-blank-circle-outline'"
             size="3.5em"
+            class="w-15"
             :color="i.cost ? 'red': 'blue'"
           />
-          <div class="text-xl xl:text-2xl font-bold text-center">
+          <div class="text-xl xl:text-2xl font-bold text-left">
             {{ i.text }}
           </div>
         </div>
@@ -133,9 +134,9 @@ const table = [
         >
           <thead>
             <tr>
-              <th class="border border-slate-400 w-[20%]" />
-              <th class="border border-slate-400 bg-green-700 text-white p-3">
-                {{ 'シークレット\nジャパン\n中越本部' }}
+              <th class="border border-slate-400 w-[16%]" />
+              <th class="border border-slate-400 bg-green-700 text-white p-3 w-[30%]">
+                {{ 'シークレット\nジャパン\n中越柏崎本部' }}
               </th>
               <th class="border border-slate-400">
                 A社
