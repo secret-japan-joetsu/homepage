@@ -5,7 +5,8 @@
 
 <template>
   <div
-    class="container lg:w-2/3 mt-2 lg:mt-6 p-4"
+    id="office"
+    class="container lg:w-2/3 mt-2 lg:mt-6 p-4 lg:scroll-mt-24 scroll-mt-16"
   >
     <div class="text-2xl lg:text-5xl font-bold text-center">
       事務所概要

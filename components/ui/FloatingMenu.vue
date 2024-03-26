@@ -31,6 +31,11 @@ const menu = [
     icon: '/images/menu/faq.png',
     href: 'faq'
   },
+  {
+    text: '事務所概要',
+    icon: '/images/menu/office.png',
+    href: 'office'
+  },
 ]
 
 const open = ref(true)
