@@ -71,18 +71,19 @@ const scrollToSection = (id: string) => {
         <Button
           variant="outline"
           size="iconXL"
+          tabindex="-1"
           class="shadow-md shadow-slate-400"
           @click="changeState"
         >
           <Icon
             name="charm:menu-hamburger"
-            size="2rem"
+            size="1.5rem"
             color="black"
           />
         </Button>
       </PopoverTrigger>
       <PopoverContent
-        class="flex flex-col gap-1 lg:gap-4 lg:mr-4 p-2 lg:p-4"
+        class="flex flex-col gap-1 lg:gap-2 lg:mr-6 p-2 lg:p-2"
         side="top"
       >
         <div
@@ -90,16 +91,17 @@ const scrollToSection = (id: string) => {
           :key="item.href"
           class="flex justify-end items-center gap-2"
         >
-          <div class="bg-gray-600 rounded-md text-white p-2 text-md lg:text-xl">
+          <div class="bg-[#424242] rounded-md text-white p-2 text-xs">
             {{ item.text }}
           </div>
           <Button
             variant="outline"
             size="iconXL"
+            tabindex="-1"
             @click="scrollToSection(item.href)"
           >
             <img
-              class="object-contain h-7 w-7 lg:h-9 lg:w-9"
+              class="object-contain h-6 w-6"
               :src="item.icon"
             >
           </Button>
