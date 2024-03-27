@@ -91,7 +91,7 @@ const scrollToSection = (id: string) => {
           :key="item.href"
           class="flex justify-end items-center gap-2"
         >
-          <div class="bg-[#424242] rounded-md text-white p-2 text-xs">
+          <div class="bg-[#424242] rounded-md text-white p-2 text-sm">
             {{ item.text }}
           </div>
           <Button
