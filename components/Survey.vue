@@ -48,12 +48,10 @@ SNS全盛の現代、教師がいじめに全く気づいていないなんて�
     title: 'ストーカー調査',
     bg: 'bg-cyan-800',
     image: '/images/investigate/investigate-6.jpg',
-    description: `「お金を貸した相手が連絡が取れない」
-「お世話になった人に感謝の言葉を伝えたい」
-「家出して帰ってこない」
-など、行方を追う調査では様々なケースがあります。
-行方不明者が「どのような目的で」あなたの前から姿を消したのか、その調査から始まります。
-何もできないと諦める前に、希望をもって当社にご相談ください。`,
+    description: `自宅や職場の近くで頻繁に見かける人がいる
+一方的にしつこく連絡をしてくる人がいる
+全く知らない人から荷物や手紙が届く
+怖い思いをさせているストーカーから、あなたを守ります`,
   },
   {
     title: '盗聴器探査調査',
@@ -83,7 +81,7 @@ SNS全盛の現代、教師がいじめに全く気づいていないなんて�
         <div
           v-for="i in surveys"
           :key="i.title"
-          class="min-h-64 bg-white"
+          class="min-h-64 bg-white shadow-lg"
         > 
           <div :class="['text-xl lg:text-3xl font-bold text-white px-2 py-2 flex items-center', i.bg]">
             <img
