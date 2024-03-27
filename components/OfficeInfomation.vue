@@ -13,8 +13,8 @@
     </div>
     
     <img
-      class="w-full object-contain h-[380px] lg:h-[600px] my-4 lg:my-10"
-      src="https://picsum.photos/600"
+      class="w-full object-contain w-full my-4 lg:my-10"
+      src="/images/office_img.jpg"
     >
 
     <div class="mt-6 grid grid-cols-1 gap-y-4 whitespace-break-spaces text-md">
