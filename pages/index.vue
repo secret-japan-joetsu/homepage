@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import FloatingContact from '~/components/ui/FloatingContact.vue';
 import FloatingMenu from '~/components/ui/FloatingMenu.vue';
+useHead({
+  title: "新潟県の探偵事務所ならシークレットジャパン上越・柏崎",
+  link: [
+    {
+      href: '/favicon.ico',
+      rel: 'icon'
+    }
+  ]
+})
+
 useSeoMeta({
   ogTitle: 'シークレットジャパン上越・柏崎本部',
   ogDescription: '新潟・柏崎市で探偵事務所をお探しなら、シークレットジャパン上越・柏崎本部。浮気調査や不倫調査、婚前調査、素行調査、人探しなど、様々な依頼に対応し、解決してきた実績があります。無料相談、無料見積もり、安心料金なので、お気軽にご相談ください。',
@@ -14,15 +24,7 @@ useSeoMeta({
   googleSiteVerification: "HAWSL49KSFgwBCfZDTa_L0Hue8Wx6ihTjsmL5dD_C3c"
 })
 
-useHead({
-  title: "新潟県の探偵事務所ならシークレットジャパン上越・柏崎",
-  link: [
-    {
-      href: '/favicon.ico',
-      rel: 'icon'
-    }
-  ]
-})
+
 
 </script>
 <template>
