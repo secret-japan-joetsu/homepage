@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const description = "探偵の調査は、依頼者様のプライバシーに深くかかわる仕事を承っております。\n依頼者様が不安に思われて当然です。\nシークレットジャパングループは全国に８０店を構え、多くの依頼者様から「ありがとう」のお言葉と激励を頂いております。\n探偵選びは、信頼できる私たちに是非お任せ下さい。\n勇気を出して一歩前へ「あの日連絡して良かった」と言っていただけるのが、１番うれしいお言葉です。"
+  const description = "探偵の調査は、依頼者様のプライバシーに深くかかわる仕事を承っております。依頼者様が不安に思われて当然です。シークレットジャパングループは全国に８０店を構え、多くの依頼者様から「ありがとう」のお言葉と激励を頂いております。探偵選びは、信頼できる私たちに是非お任せ下さい。勇気を出して一歩前へ「あの日連絡して良かった」と言っていただけるのが、１番うれしいお言葉です。"
 </script>
 
 <template>
@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="container md:w-2/3 p-4 mx-auto my-8 justify-center items-center">
-    <div class="xl:w-[70%] lg:w-[90%] w-full mx-auto">
+    <div class="xl:w-[75%] lg:w-[90%] w-full mx-auto">
       <div class="text-xl md:text-2xl lg:text-5xl font-bold text-accent text-center">
         初めての方へ
       </div>
