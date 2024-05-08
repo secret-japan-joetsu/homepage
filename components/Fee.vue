@@ -77,6 +77,7 @@ const table = [
   {
     rowTitle: '総額',
     main: '¥ 100,000',
+    bold: true,
     a: '￥165,000',
     b: '￥120,000'
   },
@@ -154,7 +155,7 @@ const table = [
               <td class="border border-slate-400 h-16">
                 {{ r.rowTitle }}
               </td>
-              <td class="border border-slate-400 bg-green-100 font-bold text-center">
+              <td :class="['border border-slate-400 bg-green-100 text-center', r.bold ? 'font-black' : 'font-bold']">
                 {{ r.main }}
               </td>
               <td class="border border-slate-400">
