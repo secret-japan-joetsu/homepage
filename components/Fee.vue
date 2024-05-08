@@ -129,45 +129,45 @@ const table = [
       <div class="text-3xl lg:text-5xl text-center font-bold  mt-4 lg:mt-10">
         他社との比較例
       </div>
-      <div class="overflow-x-auto">
-        <table
-          class="table-fixed text-sm lg:text-xl text-center w-full bg-white whitespace-break-spaces mt-6 border-collapse border border-slate-400"
-        >
-          <thead>
-            <tr>
-              <th class="border border-slate-400 w-[16%]" />
-              <th class="border border-slate-400 bg-green-700 text-white p-3 w-[30%]">
-                {{ 'シークレット\nジャパン\n上越・柏崎本部' }}
-              </th>
-              <th class="border border-slate-400">
-                A社
-              </th>
-              <th class="border border-slate-400">
-                B社
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="r in table "
-              :key="r.rowTitle"
-            >
-              <td class="border border-slate-400 h-16">
-                {{ r.rowTitle }}
-              </td>
-              <td :class="['border border-slate-400 bg-green-100 text-center', r.bold ? 'font-black' : 'font-bold']">
-                {{ r.main }}
-              </td>
-              <td class="border border-slate-400">
-                {{ r.a }}
-              </td>
-              <td class="border border-slate-400">
-                {{ r.b }}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+
+      <table
+        class="table-fixed text-sm lg:text-xl text-center w-full bg-white whitespace-break-spaces mt-6 border-collapse border border-slate-400"
+      >
+        <thead>
+          <tr>
+            <th class="border border-slate-400 w-[16%]" />
+            <th class="border border-slate-400 bg-green-700 text-white p-3 w-[30%]">
+              {{ 'シークレット\nジャパン\n上越・柏崎本部' }}
+            </th>
+            <th class="border border-slate-400">
+              A社
+            </th>
+            <th class="border border-slate-400">
+              B社
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            v-for="r in table "
+            :key="r.rowTitle"
+          >
+            <td class="border border-slate-400 h-16">
+              {{ r.rowTitle }}
+            </td>
+            <td :class="['border border-slate-400 bg-green-100 text-center', r.bold ? 'font-black ring-4 ring-green-600 ring-inset' : 'font-bold']">
+              {{ r.main }}
+            </td>
+            <td class="border border-slate-400">
+              {{ r.a }}
+            </td>
+            <td class="border border-slate-400">
+              {{ r.b }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
       <div class="border-[6px] rounded-md bg-white p-3 text-xl font-bold text-center  border-red-500 text-red-500 my-4 whitespace-break-spaces">
         {{ "内容・金額にご納得いただけない場合、遠慮なくお断りください。\n以後こちらから営業等のご連絡は一切行いません。" }}
       </div>
