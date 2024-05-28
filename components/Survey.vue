@@ -42,6 +42,12 @@ const surveys = [
     image: '/images/investigate/investigate-7.jpg',
     description: `他人は知らないはずの会話を何故か知っている。電話で不自然なノイズ音がする。もしかしたら盗聴器が仕掛けられているかも。私たち探偵が盗聴器を発見し安全を守ります。`,
   },
+  {
+    title: "従業員素行調査",
+    bg: "bg-yellow-400",
+    image: "/images/investigate/investigate-8.jpg",
+    description: `外回り中に業務を放棄しパチンコに行っている、競合他社への情報流出や商品の横領など、社員が業務をしっかり遂行しているか確認いたします。`,
+  },
 ]
 
 
