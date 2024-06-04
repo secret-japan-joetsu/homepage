@@ -76,7 +76,7 @@ const table = [
   },
   {
     rowTitle: '総額',
-    main: '¥ 100,000',
+    main: '¥100,000',
     bold: true,
     a: '￥165,000',
     b: '￥120,000'
