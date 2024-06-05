@@ -7,6 +7,28 @@ const note1 = `・LINEのやりとり
 だけでは証拠として不十分です！`
 
 const note2= `当社はお客様の立場に立ち、関係の修復を望むのか、離婚を検討しているのか、その状況に応じてアドバイスを行います。お客様からのご相談内容は秘密厳守としておりますので、安心してご相談ください。`
+
+
+const list = [
+"帰宅後すぐにシャワーを浴びる",
+"下着が新しくなった",
+"服装、美容（身だしなみ）を意識するようになった",
+"性交渉を拒む、変化がある",
+"機嫌を取るような行動をする",
+"態度が冷たくなる",
+"連絡が取れない時がある",
+"話している内容や行動に矛盾がある",
+"お金の使い方が変わった",
+"帰宅時間が遅い、残業や出張が増える",
+"自分のスケジュールを詳細に伝えてくる",
+"相手のスケジュールを何度も確認してくる",
+"外出、飲み会が増えた",
+"常にスマホを持ち歩くようになった",
+"風呂やトイレなどに持っていく",
+"スマホにロックをかけるようになった",
+"伏せて置くようになった",
+"通知が表示されないようにしている",
+]
 </script>
 
 <template>
@@ -27,6 +49,21 @@ const note2= `当社はお客様の立場に立ち、関係の修復を望むの
         </div>
       </div>
       <div class="xl:w-[60%] lg:w-[90%] w-full mx-auto">
+        <div class="bg-white mt-6 lg:mt-12 py-2 lg:py-6 px-4 lg:px-10 w-full mx-auto rounded-lg">
+          <div class="text-xl lg:text-3xl font-bold justify-center items-center flex gap-2">
+            浮気・不倫の怪しい行動例
+          </div>
+          <div class="text-md whitespace-break-spaces py-4 lg:pt-6 w-full lg:w-4/5 mx-auto px-2 sm:px-2 lg:px-8">
+            <ul class="list-disc list-inside">
+              <li
+                v-for="txt in list"
+                :key="txt"
+              >
+                {{ txt }}
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="bg-[#FFF7BE] mt-6 lg:mt-12 py-2 lg:py-6 px-4 lg:px-10 w-full mx-auto rounded-lg">
           <div class="text-2xl lg:text-5xl font-bold justify-center items-center flex gap-2">
             <Icon
