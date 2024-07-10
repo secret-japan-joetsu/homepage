@@ -7,20 +7,30 @@
     <div class=" mx-auto text-2xl lg:text-5xl text-center font-bold mb-4 lg:my-4 whitespace-break-spaces">
       {{ '相談、完全無料！\nまずはあなたのお悩みをご相談ください！' }}
     </div>
-    <div class="lg:container grid md:grid-cols-2 lg:justify-center gap-y-4 lg:mt-12">
-      <div class="divide-y lg:divide-y-2 divide-slate-700 md:w-3/4 md:mx-auto">
-        <div class="text-xl lg:text-4xl text-center font-bold">
+    <div class="xl:container grid lg:grid-cols-3 lg:justify-center gap-y-4 lg:mt-12">
+      <div class="divide-y lg:divide-y-2 divide-slate-700 w-full md:w-1/2 lg:w-4/5 md:mx-auto">
+        <div class="text-xl md:text-2xl xl:text-3xl text-center font-bold">
           {{ 'メールでのお問い合わせ' }}
         </div>
         <div class="mt-0 lg:mt-4 pt-0 lg:pt-4">
-          <div class="text-xl lg:text-3xl text-center font-bold">
+          <div class="text-xl lg:text-2xl text-center font-bold">
             {{ 'secret.japan.joetsu@gmail.com' }}
           </div>
         </div>
       </div>
-      <div class="divide-y lg:divide-y-2 divide-slate-700 md:w-3/4 md:mx-auto">
-        <div class="text-xl lg:text-4xl text-center font-bold">
-          {{ 'LINEでの問い合わせ' }}
+      <div class="divide-y lg:divide-y-2 divide-slate-700 w-full md:w-1/2 lg:w-4/5 md:mx-auto">
+        <div class="text-xl md:text-2xl xl:text-3xl text-center font-bold">
+          {{ '電話でのお問い合わせ' }}
+        </div>
+        <div class="mt-0 lg:mt-4 pt-0 lg:pt-4">
+          <div class="text-xl lg:text-2xl text-center font-bold">
+            {{ '070-6979-9272' }}
+          </div>
+        </div>
+      </div>
+      <div class="divide-y lg:divide-y-2 divide-slate-700 w-full md:w-1/2 lg:w-4/5 md:mx-auto">
+        <div class="text-xl md:text-2xl xl:text-3xl text-center font-bold">
+          {{ 'LINEでのお問い合わせ' }}
         </div>
         <div class="text-center mt-0 lg:mt-4 pt-2 lg:pt-4">
           <Button

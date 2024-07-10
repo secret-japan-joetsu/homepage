@@ -12,7 +12,7 @@ const items = [
   },
   {
     icon: "/images/why-choose/balance.png",
-    title: "弁護士サポート",
+    title: "弁護士無料紹介",
     description: "調査後はご希望に応じて弁護士を紹介し、弁護士への相談に同行いたします。最後まで安心してお任せください。",
   },
   {
