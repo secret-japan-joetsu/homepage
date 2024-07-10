@@ -4,7 +4,7 @@ const flows = [
     title: '1.お問い合わせ',
     bg: 'bg-green-100',
     image: '/images/investigate-flow/apple-1839873.jpg',
-    description: `LINE・メールのいずれかでお問い合わせください。内容については秘密厳守を徹底しております。`,
+    description: `LINE・メール・電話のいずれかでお問い合わせください。内容については秘密厳守を徹底しております。`,
   },
   {
     title: '2.面談、お見積り',
