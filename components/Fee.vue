@@ -186,7 +186,7 @@ const table = [
               size="1.5rem"
               class="mr-2"
             />
-            07069799272
+            電話で無料相談
           </a>
         </Button>
         <Button
