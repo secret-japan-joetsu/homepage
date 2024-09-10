@@ -29,12 +29,12 @@
               シークレットジャパン
             </div>
             <div>
-              上越・柏崎本部
+              上越・柏崎
             </div>
           </div>
         </div>
         <div class="text-xs">
-          Copyright © シークレットジャパン上越・柏崎本部 All Rights Reserved.
+          Copyright © シークレットジャパン上越・柏崎 All Rights Reserved.
         </div>
       </div>
       <div class="hidden md:flex flex-col gap-2">

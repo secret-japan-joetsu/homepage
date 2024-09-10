@@ -23,7 +23,7 @@
           事務所名
         </div>
         <div class="col-span-3">
-          シークレットジャパン上越・柏崎本部
+          シークレットジャパン上越・柏崎
         </div>
       </div>
       <div class="border border-slate-700" />

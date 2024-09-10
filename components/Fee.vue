@@ -94,7 +94,7 @@ const table = [
     </div>
     <div class=" text-center text-3xl my-6 w-full lg:w-2/3 mx-auto font-bold">
       <span class="border-b-[10px] border-[#FDFE53] leading-relaxed">
-        シークレットジャパン上越・柏崎本部はここが違う
+        シークレットジャパン上越・柏崎はここが違う
       </span>
     </div>
     <div class="gap-4 p-0 container sm:w-[85%] md:w-[80%] xl:w-[70%] 2xl:w-[65%] mx-auto">
@@ -137,7 +137,7 @@ const table = [
           <tr>
             <th class="border border-slate-400 w-[16%]" />
             <th class="border border-slate-400 bg-green-700 text-white p-3 w-[30%]">
-              {{ 'シークレット\nジャパン\n上越・柏崎本部' }}
+              {{ 'シークレット\nジャパン\n上越・柏崎' }}
             </th>
             <th class="border border-slate-400">
               A社
