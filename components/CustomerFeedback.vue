@@ -39,6 +39,14 @@ const feedbacks = [
     title: '婚前調査',
     content: 'SNSで知り合った男性の方だったので、真実かどうかわからなく依頼しました。\n相手の素性もしっかり調べてもらい、対応も丁寧で気持ちが楽になりました。'
   },
+  {},
+  {
+    avatar: '/images/feedback/account-woman.png',
+    name: '30代　女性',
+    bg: 'bg-rose-400',
+    title: '不倫調査',
+    content: '今回、夫の不倫を疑って自分で証拠を集めていましたが、決定的なものはなく、依頼に至りました。初回の相談も親身になって話を聞いて下さり、自分に合った提案や助言をして頂きました。調査でも証拠を撮って下さり、報告も頂けました。もっと早く依頼すれば良かったです。似たような境遇の方が居たら紹介したいと思える探偵さんでした。この度は本当にありがとうございました。'
+  },
 ]
 </script>
 
@@ -58,6 +66,7 @@ const feedbacks = [
         class="md:w-[48%] w-full flex flex-col"
       >
         <Collapsible
+          v-if="fb.avatar"
           v-slot="{ open }"
           class="border-2"
         >
