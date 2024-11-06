@@ -171,11 +171,11 @@ const table = [
       <div class="border-[6px] rounded-md bg-white p-3 text-xl font-bold text-center  border-red-500 text-red-500 my-4 whitespace-break-spaces">
         {{ "内容・金額にご納得いただけない場合、遠慮なくお断りください。\n以後こちらから営業等のご連絡は一切行いません。" }}
       </div>
-      <div class="flex justify-center gap-2">
+      <div class="flex flex-wrap sm:flex-nowrap gap-4 justify-center">
         <Button
           size="lg"
           as-child
-          class="bg-[#484848] rounded-full shadow-xl text-2xl h-14 font-bold lg:px-32"
+          class="bg-[#484848] rounded-full shadow-xl text-2xl h-14 font-bold lg:px-32 w-full"
         >
           <a
             href="tel:07069799272"
@@ -192,7 +192,7 @@ const table = [
         <Button
           size="lg"
           as-child
-          class="bg-green-500 rounded-full shadow-xl text-2xl h-14 font-bold lg:px-32"
+          class="bg-green-500 rounded-full shadow-xl text-2xl h-14 font-bold lg:px-32 w-full"
         >
           <a
             href="https://lin.ee/HqEAKtY"
