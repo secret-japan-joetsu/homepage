@@ -15,8 +15,9 @@ jobs:
         with:
           node-version: "20"
       # Pick your own package manager and build script
-      - run: npm install
-      - run: npx nuxt build --preset github_pages
+      - run: npm i && npx nuxt build --preset github_pages
+      - run: cd blog && npm i && npm run build
+      - run: cd .. && cp -rf blog/public ./.output/public/blog
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

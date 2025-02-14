@@ -36,6 +36,11 @@ const menu = [
     icon: '/images/menu/office.png',
     href: 'office'
   },
+  {
+    text: 'ブログ ',
+    icon: '/images/menu/blog.png',
+    href: 'blog'
+  },
 ]
 
 const open = ref(true)
@@ -53,6 +58,10 @@ onUnmounted(() => {
 })
 
 const scrollToSection = (id: string) => {
+  if(id === 'blog'){
+    location.href = '/blog'
+    return;
+  }
   if(timeoutId.value !== null) clearTimeout(timeoutId.value)
   const section = document.getElementById(id)
   section?.scrollIntoView()
