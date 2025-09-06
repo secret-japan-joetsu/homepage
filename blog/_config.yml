@@ -102,3 +102,9 @@ theme: phantom
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Sitemap
+sitemap:
+  rel: false
+  tags: true
+  categories: true
