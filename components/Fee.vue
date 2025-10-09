@@ -11,7 +11,7 @@ const cost = [
     color: 'border-blue-600'
   },
   {
-    text: '相談・面談何度でも無料です',
+    text: '相談・面談無料です',
     cost: false,
     color: 'border-blue-600'
   },
