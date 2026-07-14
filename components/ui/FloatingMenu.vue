@@ -32,6 +32,11 @@ const menu = [
     href: 'faq'
   },
   {
+    text: 'フォームで無料相談',
+    icon: '/images/menu/faq.png',
+    href: '/contact'
+  },
+  {
     text: '事務所概要',
     icon: '/images/menu/office.png',
     href: 'office'
@@ -58,6 +63,10 @@ onUnmounted(() => {
 })
 
 const scrollToSection = (id: string) => {
+  if(id.startsWith('/')){
+    location.href = id
+    return;
+  }
   if(id === 'blog'){
     location.href = '/blog'
     return;
@@ -81,6 +90,7 @@ const scrollToSection = (id: string) => {
           variant="outline"
           size="iconXL"
           tabindex="-1"
+          aria-label="メニューを開閉"
           class="shadow-md shadow-slate-400"
           @click="changeState"
         >
@@ -107,6 +117,7 @@ const scrollToSection = (id: string) => {
             variant="outline"
             size="iconXL"
             tabindex="-1"
+            :aria-label="item.text"
             @click="scrollToSection(item.href)"
           >
             <img

@@ -36,6 +36,12 @@
         <div class="text-xs">
           Copyright © シークレットジャパン上越・柏崎 All Rights Reserved.
         </div>
+        <NuxtLink
+          to="/privacy-policy"
+          class="mt-3 w-fit text-sm text-slate-600 underline underline-offset-4 hover:text-accent"
+        >
+          プライバシーポリシー
+        </NuxtLink>
       </div>
       <div class="hidden md:flex flex-col gap-2">
         <div class="text-lg font-bold whitespace-break-spaces">
