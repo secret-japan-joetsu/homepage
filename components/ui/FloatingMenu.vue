@@ -32,7 +32,7 @@ const menu = [
     href: 'faq'
   },
   {
-    text: 'フォームで無料相談',
+    text: '無料相談',
     icon: '/images/menu/faq.png',
     href: '/contact'
   },

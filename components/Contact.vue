@@ -15,7 +15,7 @@
           class="rounded-full bg-slate-900 px-8 text-lg font-bold shadow-xl"
         >
           <NuxtLink to="/contact">
-            フォームで無料相談
+            無料相談
           </NuxtLink>
         </Button>
       </div>
